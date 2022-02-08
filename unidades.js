@@ -39,19 +39,21 @@ $('.form-check-input').change(function () {
         $('path').css('fill', 'black');
     }
 })
+var min_width = $('svg').width();
+var max_width = min_width * 1.5;
 
 $('.font-plus').click(function () {
-    var font_size = parseInt($('text').css('font-size'));
-    if (font_size < 30) {
-        font_size = font_size + 1;
-        $('text').css('font-size', font_size + 'px');
+    var w = $('svg').width();
+    if (w < max_width) {
+        w += (min_width * 0.1);
+        $('svg').css('width', w + 'px');
     }
 })
 
 $('.font-minus').click(function () {
-    var font_size = parseInt($('text').css('font-size'));
-    if (font_size > 20) {
-        font_size = font_size - 1;
-        $('text').css('font-size', font_size + 'px');
+    var w = $('svg').width();
+    if (w > min_width) {
+        w -= (min_width * 0.1);
+        $('svg').css('width', w + 'px');
     }
 })

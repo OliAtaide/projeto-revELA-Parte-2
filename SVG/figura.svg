@@ -1,101 +1,522 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="1280" height="540" fill="none" version="1.1" viewBox="0 0 1280 540" xmlns="http://www.w3.org/2000/svg">
- <g fill="#000000" font-family="Roboto" font-size="20px">
-  <text x="-56.096802" y="-140.67172" letter-spacing="0px" word-spacing="0px" style="line-height:0;white-space:pre" xml:space="preserve">
-      <tspan x="-56.096802" y="-135.67172"/>
-   </text>
-  <text x="-56.096802" y="-140.67172" letter-spacing="0em" style="line-height:1;white-space:pre" xml:space="preserve">
-      <tspan x="-56.096802" y="-125.67172"/>
-   </text>
-  <text x="-56.096802" y="-140.67172" letter-spacing="0em" style="white-space:pre" xml:space="preserve"/>
- </g>
- <path d="m385 341v-1h-2v1zm-1 35 5.774-10h-11.548zm-1-35v26h2v-26z" fill="#0044f3"/>
- <g fill="#0044f3">
-  <path d="m534 504.86v4.7734h-407v2h407v4.7734l10-5.7734z"/>
-  <path d="m127 251v260.64h2v-260.64z"/>
- </g>
- <path d="m129 251v-1h-2v1z" fill="#000"/>
- <g fill="#0044f3">
-  <path d="m385 241v-1h-2v1zm-1 35 5.774-10h-11.548zm-1-35v26h2v-26z"/>
-  <path d="m641 241v-1h-2v1zm-1 35 5.774-10h-11.548zm-1-35v26h2v-26z"/>
-  <path d="m641 371v-1h-2v1zm-1 103 5.774-10h-11.547zm-1-103v94h2v-94z"/>
-  <path d="m890.66 254.99 0.658-0.753-1.505-1.317-0.659 0.752zm-189.75 215.34 10.93-3.724-8.69-7.604zm188.25-216.66-183.07 209.23 1.505 1.317 183.07-209.23z"/>
-  <path d="m1153 291v-1h-2v1zm-1 35 5.77-10h-11.54zm-1-35v26h2v-26z"/>
- </g>
- <g transform="translate(0 13.907)">
-  <rect x="284" y="186.09" width="200" height="40" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
- </g>
- <g transform="translate(0 39.841)">
-  <rect x="309" y="360.16" width="150" height="40" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
- </g>
- <g transform="translate(0 13.668)">
-  <rect x="565" y="186.33" width="150" height="40" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
- </g>
- <g transform="translate(0 41.512)">
-  <rect x="1092" y="208.49" width="120" height="40" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
- </g>
- <g transform="translate(0 55.347)">
-  <rect x="1102" y="294.65" width="100" height="40" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
- </g>
- <g fill="#0044f3">
-  <path d="m129 151v-1h-2v1zm-1 35 5.774-10h-11.548zm-1-35v26h2v-26z"/>
-  <path d="m385 141v-1h-2v1zm-1 35 5.774-10h-11.548zm-1-35v26h2v-26z"/>
-  <path d="m641 141v-1h-2v1zm-1 35 5.774-10h-11.548zm-1-35v26h2v-26z"/>
-  <path d="m890.9 151v-1h-2v1zm-1 35 5.774-10h-11.548zm-1-35v26h2v-26z"/>
-  <path d="m1153 191v-1h-2v1zm-1 35 5.77-10h-11.54zm-1-35v26h2v-26z"/>
- </g>
- <g transform="translate(0 11.295)">
-  <rect x="540" y="288.71" width="200" height="50" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
-  <text x="640.01465" y="308.60748" font-family="'Bebas Neue'" font-size="20px" letter-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="640.01465" y="308.60748" fill="#000000" font-family="Roboto" font-size="20px" text-align="center" text-anchor="middle"/></text>
-  <path d="m555.98 305.71a1 1 0 0 0-1 1v11.586l-5.293-5.293a1 1 0 0 0-0.70704-0.29297 1 1 0 0 0-0.70703 0.29297 1 1 0 0 0 0 1.4141l7 7a1.0001 1.0001 0 0 0 0.0625 0.0469 1 1 0 0 0 0.12891 0.0918 1.0001 1.0001 0 0 0 0.13476 0.0684 1 1 0 0 0 0.14844 0.0488 1.0001 1.0001 0 0 0 0.1582 0.0254 1 1 0 0 0 0.0742 0.0117 1 1 0 0 0 0.0742-0.0117 1.0001 1.0001 0 0 0 0.15822-0.0254 1 1 0 0 0 0.14843-0.0488 1.0001 1.0001 0 0 0 0.13477-0.0684 1 1 0 0 0 0.12891-0.0918 1.0001 1.0001 0 0 0 0.0625-0.0469l7-7a1 1 0 0 0 0-1.4141 1 1 0 0 0-1.4141 0l-5.293 5.293v-11.586a1 1 0 0 0-1-1z" color="#000000" fill="#000" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
- </g>
- <text x="-2.4218748" y="-137.91608" fill="#000000" font-family="Roboto" font-size="20px" letter-spacing="0em" style="white-space:pre" xml:space="preserve"/>
- <text x="55.578125" y="65" fill="#666666" font-family="'Bebas Neue'" font-size="40px" letter-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="55.578125" y="65"/><tspan x="55.578125" y="115" fill="#000000" font-family="Roboto" font-size="20px">Rigidez articular</tspan></text>
- <g fill="#0044f3">
-  <path d="m127 50v2h1026v-2h-1025z" color="#000000" stroke-linecap="square" style="-inkscape-stroke:none"/>
-  <path d="m129 51v-1h-2v1zm-1 35 5.774-10h-11.548zm-1-35v26h2v-26z"/>
-  <path d="m385 51v-1h-2v1zm-1 35 5.774-10h-11.548zm-1-35v26h2v-26z"/>
-  <path d="m641 21v-1h-2v1zm-1 60 5.774-10h-11.548zm-1-60v51h2v-51z"/>
-  <path d="m890.9 51v-1h-2v1zm-1 35 5.774-10h-11.548zm-1-35v26h2v-26z"/>
-  <path d="m1153 51v-1h-2v1zm-1 35 5.77-10h-11.54zm-1-35v26h2v-26z"/>
- </g>
- <g transform="translate(0 -9.9023)">
-  <text x="895.98535" y="124.90234" fill="#000000" font-family="Roboto" font-size="20px" letter-spacing="0px" text-anchor="middle" style="line-height:1.25" xml:space="preserve"><tspan x="895.98535" y="124.90234" text-align="center">do condicionamento</tspan><tspan x="895.98535" y="149.90234" text-align="center">físico</tspan></text>
-  <path d="m787.8 109.9a1 1 0 0 0-1 1v11.586l-5.293-5.293a1 1 0 0 0-0.70704-0.29297 1 1 0 0 0-0.70703 0.29297 1 1 0 0 0 0 1.4141l7 7a1.0001 1.0001 0 0 0 0.0625 0.0469 1 1 0 0 0 0.12891 0.0918 1.0001 1.0001 0 0 0 0.13476 0.0684 1 1 0 0 0 0.14844 0.0488 1.0001 1.0001 0 0 0 0.1582 0.0254 1 1 0 0 0 0.0742 0.0117 1 1 0 0 0 0.0742-0.0117 1.0001 1.0001 0 0 0 0.15821-0.0254 1 1 0 0 0 0.14843-0.0488 1.0001 1.0001 0 0 0 0.13477-0.0684 1 1 0 0 0 0.12891-0.0918 1.0001 1.0001 0 0 0 0.0625-0.0469l7-7a1 1 0 0 0 0-1.4141 1 1 0 0 0-1.4141 0l-5.293 5.293v-11.586a1 1 0 0 0-1-1z" color="#000000" fill="#000" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
- </g>
- <rect x="127" y="150" width="2" height="27" fill="#ccc"/>
- <path d="m1080.1 408.68 0.966-0.25882-0.5177-1.9319-0.9659 0.25882zm-323.84 85.738 11.154 2.9891-2.9888-11.155zm323.33-87.67-314.89 84.375 0.51764 1.9318 314.89-84.375z" fill="#0044f3"/>
- <g transform="translate(0 -58.264)">
-  <rect x="550" y="558.26" width="180" height="40" fill="none"/>
-  <text x="-38.641624" y="-63.442261" fill="#000000" font-family="Roboto" font-size="28px" font-weight="600" letter-spacing="0em" style="white-space:pre" xml:space="preserve"/>
- </g>
- <path d="m460 438.27-0.86603-0.5-1 1.732 0.86603 0.5zm88.701 52.366-5.7733-10-5.7735 10zm-89.701-50.634 81.406 47 1-1.732-81.406-47z" fill="#0044f3"/>
- <text x="-2.4218748" y="-39.005878" fill="#000000" font-family="Roboto" font-size="20px" letter-spacing="0em" style="white-space:pre" xml:space="preserve"/>
- <text x="111.67676" y="214.21875" fill="#666666" font-family="'Bebas Neue'" font-size="40px" letter-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="111.67676" y="214.21875" fill="#000000" font-family="Roboto" font-size="20px">Dor</tspan></text>
- <text x="1152.3174" y="120.41992" fill="#000000" font-family="'Bebas Neue'" font-size="20px" letter-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="1152.3174" y="120.41992" fill="#000000" font-family="Roboto" font-size="20px" text-align="center" text-anchor="middle"/></text>
- <g transform="translate(0 -5.4199)">
-  <path d="m1076.5 105.42a1 1 0 0 0-1 1v11.586l-5.2929-5.293a1 1 0 0 0-0.7071-0.29297 1 1 0 0 0-0.707 0.29297 1 1 0 0 0 0 1.4141l7 7a1.0001 1.0001 0 0 0 0.062 0.0469 1 1 0 0 0 0.1289 0.0918 1.0001 1.0001 0 0 0 0.1348 0.0684 1 1 0 0 0 0.1484 0.0488 1.0001 1.0001 0 0 0 0.1582 0.0254 1 1 0 0 0 0.074 0.0117 1 1 0 0 0 0.074-0.0117 1.0001 1.0001 0 0 0 0.1582-0.0254 1 1 0 0 0 0.1484-0.0488 1.0001 1.0001 0 0 0 0.1348-0.0684 1 1 0 0 0 0.1289-0.0918 1.0001 1.0001 0 0 0 0.062-0.0469l7-7a1 1 0 0 0 0-1.4141 1 1 0 0 0-1.4141 0l-5.2929 5.293v-11.586a1 1 0 0 0-1-1z" color="#000000" fill="#000" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
-  <text x="1152.3174" y="120.41992" fill="#000000" font-family="Roboto" font-size="20px" letter-spacing="0px" text-anchor="middle" style="line-height:1.25" xml:space="preserve"><tspan x="1152.3174" y="120.41992" text-align="center">tensão sobre</tspan><tspan x="1152.3174" y="145.41992" text-align="center">tendões e</tspan><tspan x="1152.3174" y="170.41992" text-align="center">ligamentos</tspan></text>
- </g>
- <g font-family="'Bebas Neue'" letter-spacing="0px">
-  <text x="654.75299" y="668.29059" font-size="40px" style="line-height:1.25" xml:space="preserve"><tspan x="654.75299" y="668.29059"/><tspan x="654.75299" y="718.29059" fill="#000000" font-size="20px"/></text>
-  <text x="568.91266" y="520" font-size="26.667px" style="line-height:1.25" xml:space="preserve"><tspan x="568.91266" y="520" fill="#000000" font-family="Roboto" font-size="26.667px" font-weight="bold">Imobilidade</tspan></text>
-  <text x="292.09082" y="215.20508" font-size="20px" style="line-height:1.25" xml:space="preserve"><tspan x="292.09082" y="215.20508" fill="#000000" font-family="Roboto" font-size="20px">Hipertrofia muscular</tspan></text>
- </g>
- <path d="m550.93 101.53a1 1 0 0 0-1 1v11.586l-5.293-5.293a1 1 0 0 0-0.70704-0.29297 1 1 0 0 0-0.70703 0.29297 1 1 0 0 0 0 1.4141l7 7a1.0001 1.0001 0 0 0 0.0625 0.0469 1 1 0 0 0 0.12891 0.0918 1.0001 1.0001 0 0 0 0.13476 0.0684 1 1 0 0 0 0.14844 0.0488 1.0001 1.0001 0 0 0 0.1582 0.0254 1 1 0 0 0 0.0742 0.0117 1 1 0 0 0 0.0742-0.0117 1.0001 1.0001 0 0 0 0.15821-0.0254 1 1 0 0 0 0.14843-0.0488 1.0001 1.0001 0 0 0 0.13477-0.0684 1 1 0 0 0 0.12891-0.0918 1.0001 1.0001 0 0 0 0.0625-0.0469l7-7a1 1 0 0 0 0-1.4141 1 1 0 0 0-1.4141 0l-5.293 5.293v-11.586a1 1 0 0 0-1-1z" color="#000000" fill="#000" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
- <text x="568.03259" y="115" font-family="'Bebas Neue'" font-size="20px" letter-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="568.03259" y="115" fill="#000000" font-family="Roboto" font-size="20px">capacidade vital</tspan></text>
- <g font-size="20px" letter-spacing="0px">
-  <text x="292.62793" y="315" font-family="'Bebas Neue'" style="line-height:1.25" xml:space="preserve"><tspan x="292.62793" y="315" fill="#000000" font-family="Roboto" font-size="20px">Contratura muscular</tspan></text>
-  <text x="320.88965" y="415.20508" font-family="'Bebas Neue'" style="line-height:1.25" xml:space="preserve"><tspan x="320.88965" y="415.20508" fill="#000000" font-family="Roboto" font-size="20px">Deformidades</tspan></text>
-  <text x="573.2959" y="215" font-family="'Bebas Neue'" style="line-height:1.25" xml:space="preserve"><tspan x="573.2959" y="215" fill="#000000" font-family="Roboto" font-size="20px">Hipoventilação</tspan></text>
-  <text x="640.01465" y="315" fill="#000000" font-family="Roboto" text-anchor="middle" style="line-height:1.25" xml:space="preserve"><tspan x="640.01465" y="315" text-align="center">tolerância à </tspan><tspan x="640.01465" y="340" text-align="center">atividade física</tspan></text>
- </g>
- <g transform="translate(0 -3.3049)">
-  <path d="m844.72 220.99a1 1 0 0 1-1-1v-11.586l-5.293 5.293a1 1 0 0 1-0.70704 0.29297 1 1 0 0 1-0.70703-0.29297 1 1 0 0 1 0-1.4141l7-7a1.0001 1.0001 0 0 1 0.0625-0.0469 1 1 0 0 1 0.12891-0.0918 1.0001 1.0001 0 0 1 0.13476-0.0684 1 1 0 0 1 0.14844-0.0488 1.0001 1.0001 0 0 1 0.1582-0.0254 1 1 0 0 1 0.0742-0.0117 1 1 0 0 1 0.0742 0.0117 1.0001 1.0001 0 0 1 0.15821 0.0254 1 1 0 0 1 0.14843 0.0488 1.0001 1.0001 0 0 1 0.13477 0.0684 1 1 0 0 1 0.12891 0.0918 1.0001 1.0001 0 0 1 0.0625 0.0469l7 7a1 1 0 0 1 0 1.4141 1 1 0 0 1-1.4141 0l-5.293-5.293v11.586a1 1 0 0 1-1 1z" color="#000000" fill="#000" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
-  <text x="862.12976" y="218.51003" font-family="'Bebas Neue'" font-size="20px" letter-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="862.12976" y="218.51003" fill="#000000" font-family="Roboto" font-size="20px">fadiga</tspan></text>
- </g>
- <text x="1094.7295" y="264.41406" font-family="'Bebas Neue'" font-size="20px" letter-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="1094.7295" y="264.41406" fill="#000000" font-family="Roboto" font-size="20px">Osteoporose</tspan></text>
- <text x="1115.0762" y="364.21875" font-family="'Bebas Neue'" font-size="20px" letter-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="1115.0762" y="364.21875" fill="#000000" font-family="Roboto" font-size="20px">Fraturas</tspan></text>
- <path d="m299.39 101.77a1 1 0 0 0-1 1v11.586l-5.293-5.293a1 1 0 0 0-0.70704-0.29297 1 1 0 0 0-0.70703 0.29297 1 1 0 0 0 0 1.4141l7 7a1.0001 1.0001 0 0 0 0.0625 0.0469 1 1 0 0 0 0.12891 0.0918 1.0001 1.0001 0 0 0 0.13476 0.0684 1 1 0 0 0 0.14844 0.0488 1.0001 1.0001 0 0 0 0.1582 0.0254 1 1 0 0 0 0.0742 0.0117 1 1 0 0 0 0.0742-0.0117 1.0001 1.0001 0 0 0 0.15821-0.0254 1 1 0 0 0 0.14843-0.0488 1.0001 1.0001 0 0 0 0.13477-0.0684 1 1 0 0 0 0.12891-0.0918 1.0001 1.0001 0 0 0 0.0625-0.0469l7-7a1 1 0 0 0 0-1.4141 1 1 0 0 0-1.4141 0l-5.293 5.293v-11.586a1 1 0 0 0-1-1z" color="#000000" fill="#000" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
- <text x="316.80807" y="115.20508" font-family="'Bebas Neue'" font-size="20px" letter-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="316.80807" y="115.20508" fill="#000000" font-family="Roboto" font-size="20px">força muscular</tspan></text>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1280"
+   height="540"
+   fill="none"
+   version="1.1"
+   viewBox="0 0 1280 540"
+   id="svg208"
+   sodipodi:docname="figura.svg"
+   inkscape:version="1.1.1 (1:1.1+202109281949+c3084ef5ed)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs212" />
+  <sodipodi:namedview
+     id="namedview210"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="0.63087183"
+     inkscape:cx="544.48461"
+     inkscape:cy="159.30336"
+     inkscape:window-width="1366"
+     inkscape:window-height="703"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg208" />
+  <path
+     d="m129 251v-1h-2v1z"
+     fill="#000"
+     id="path22" />
+  <text
+     x="-2.4218748"
+     y="-137.91608"
+     fill="#000000"
+     font-family="Roboto"
+     font-size="20px"
+     letter-spacing="0em"
+     style="white-space:pre"
+     xml:space="preserve"
+     id="text78" />
+  <g
+     transform="translate(0 -58.264)"
+     id="g118">
+    <rect
+       x="550"
+       y="558.26"
+       width="180"
+       height="40"
+       fill="none"
+       id="rect114" />
+    <text
+       x="-38.641624"
+       y="-63.442261"
+       fill="#000000"
+       font-family="Roboto"
+       font-size="28px"
+       font-weight="600"
+       letter-spacing="0em"
+       style="white-space:pre"
+       xml:space="preserve"
+       id="text116" />
+  </g>
+  <text
+     x="-2.4218748"
+     y="-39.005878"
+     fill="#000000"
+     font-family="Roboto"
+     font-size="20px"
+     letter-spacing="0em"
+     style="white-space:pre"
+     xml:space="preserve"
+     id="text122" />
+  <g
+     id="dor">
+    <path
+       d="m 129,151 v -1 h -2 v 1 z m -1,35 5.774,-10 h -11.548 z m -1,-35 v 26 h 2 v -26 z"
+       id="path56"
+       style="fill:#0044f3" />
+    <g
+       fill="#0044f3"
+       id="g20">
+      <path
+         d="m 534,504.86 v 4.7734 H 127 v 2 h 407 v 4.7734 l 10,-5.7734 z"
+         id="path16" />
+      <path
+         d="m 127,251 v 260.64 h 2 V 251 Z"
+         id="path18" />
+    </g>
+    <text
+       x="111.67676"
+       y="214.21875"
+       fill="#666666"
+       font-family="'Bebas Neue'"
+       font-size="40px"
+       letter-spacing="0px"
+       style="line-height:1.25"
+       xml:space="preserve"
+       id="text126"><tspan
+         x="111.67676"
+         y="214.21875"
+         fill="#000000"
+         font-family="Roboto"
+         font-size="20px"
+         id="tspan124">Dor</tspan></text>
+  </g>
+  <text
+     x="1152.3174"
+     y="120.41992"
+     fill="#000000"
+     font-family="'Bebas Neue'"
+     font-size="20px"
+     letter-spacing="0px"
+     style="line-height:1.25"
+     xml:space="preserve"
+     id="text130"><tspan
+       x="1152.3174"
+       y="120.41992"
+       fill="#000000"
+       font-family="Roboto"
+       font-size="20px"
+       text-align="center"
+       text-anchor="middle"
+       id="tspan128" /></text>
+  <text
+     x="654.75299"
+     y="668.29059"
+     font-size="40px"
+     style="line-height:1.25;font-family:'Bebas Neue';letter-spacing:0px"
+     xml:space="preserve"
+     id="text148"><tspan
+       x="654.75299"
+       y="668.29059"
+       id="tspan144" /><tspan
+       x="654.75299"
+       y="718.29059"
+       fill="#000000"
+       font-size="20px"
+       id="tspan146" /></text>
+  <text
+     x="568.91266"
+     y="520"
+     font-size="26.667px"
+     style="line-height:1.25;font-family:'Bebas Neue';letter-spacing:0px"
+     xml:space="preserve"
+     id="text152"><tspan
+       x="568.91266"
+       y="520"
+       fill="#000000"
+       font-family="Roboto"
+       font-size="26.667px"
+       font-weight="bold"
+       id="tspan150">Imobilidade</tspan></text>
+  <g
+     id="g1780">
+    <path
+       d="m 385,141 v -1 h -2 v 1 z m -1,35 5.774,-10 h -11.548 z m -1,-35 v 26 h 2 v -26 z"
+       id="path58"
+       style="fill:#0044f3" />
+    <text
+       x="292.09082"
+       y="215.20508"
+       font-size="20px"
+       style="line-height:1.25;font-family:'Bebas Neue';letter-spacing:0px"
+       xml:space="preserve"
+       id="text156"><tspan
+         x="292.09082"
+         y="215.20508"
+         fill="#000000"
+         font-family="Roboto"
+         font-size="20px"
+         id="tspan154">Hipertrofia muscular</tspan></text>
+  </g>
+  <g
+     id="g2088">
+    <path
+       d="m 385,241 v -1 h -2 v 1 z m -1,35 5.774,-10 h -11.548 z m -1,-35 v 26 h 2 v -26 z"
+       id="path24"
+       style="fill:#0044f3" />
+    <text
+       x="292.62793"
+       y="315"
+       font-family="'Bebas Neue'"
+       style="font-size:20px;line-height:1.25;letter-spacing:0px"
+       xml:space="preserve"
+       id="text168"><tspan
+         x="292.62793"
+         y="315"
+         fill="#000000"
+         font-family="Roboto"
+         font-size="20px"
+         id="tspan166">Contratura muscular</tspan></text>
+  </g>
+  <g
+     id="g1161">
+    <path
+       d="m385 341v-1h-2v1zm-1 35 5.774-10h-11.548zm-1-35v26h2v-26z"
+       fill="#0044f3"
+       id="path14" />
+    <path
+       d="m460 438.27-0.86603-0.5-1 1.732 0.86603 0.5zm88.701 52.366-5.7733-10-5.7735 10zm-89.701-50.634 81.406 47 1-1.732-81.406-47z"
+       fill="#0044f3"
+       id="path120" />
+    <text
+       x="320.88965"
+       y="415.20508"
+       font-family="'Bebas Neue'"
+       style="font-size:20px;line-height:1.25;letter-spacing:0px"
+       xml:space="preserve"
+       id="text172"><tspan
+         x="320.88965"
+         y="415.20508"
+         fill="#000000"
+         font-family="Roboto"
+         font-size="20px"
+         id="tspan170">Deformidades</tspan></text>
+  </g>
+  <g
+     id="g1775">
+    <path
+       d="m 641,141 v -1 h -2 v 1 z m -1,35 5.774,-10 h -11.548 z m -1,-35 v 26 h 2 v -26 z"
+       id="path60"
+       style="fill:#0044f3" />
+    <text
+       x="573.2959"
+       y="215"
+       font-family="'Bebas Neue'"
+       style="font-size:20px;line-height:1.25;letter-spacing:0px"
+       xml:space="preserve"
+       id="text176"><tspan
+         x="573.2959"
+         y="215"
+         fill="#000000"
+         font-family="Roboto"
+         font-size="20px"
+         id="tspan174">Hipoventilação</tspan></text>
+  </g>
+  <g
+     id="g1439">
+    <path
+       d="m 641,241 v -1 h -2 v 1 z m -1,35 5.774,-10 h -11.548 z m -1,-35 v 26 h 2 v -26 z"
+       id="path26"
+       style="fill:#0044f3" />
+    <path
+       d="m 641,371 v -1 h -2 v 1 z m -1,103 5.774,-10 h -11.547 z m -1,-103 v 94 h 2 v -94 z"
+       id="path28"
+       style="fill:#0044f3" />
+    <path
+       d="m 555.98,317.005 a 1,1 0 0 0 -1,1 v 11.586 l -5.293,-5.293 a 1,1 0 0 0 -0.70704,-0.29297 1,1 0 0 0 -0.70703,0.29297 1,1 0 0 0 0,1.4141 l 7,7 a 1.0001,1.0001 0 0 0 0.0625,0.0469 1,1 0 0 0 0.12891,0.0918 1.0001,1.0001 0 0 0 0.13476,0.0684 1,1 0 0 0 0.14844,0.0488 1.0001,1.0001 0 0 0 0.1582,0.0254 1,1 0 0 0 0.0742,0.0117 1,1 0 0 0 0.0742,-0.0117 1.0001,1.0001 0 0 0 0.15822,-0.0254 1,1 0 0 0 0.14843,-0.0488 1.0001,1.0001 0 0 0 0.13477,-0.0684 1,1 0 0 0 0.12891,-0.0918 1.0001,1.0001 0 0 0 0.0625,-0.0469 l 7,-7 a 1,1 0 0 0 0,-1.4141 1,1 0 0 0 -1.4141,0 l -5.293,5.293 v -11.586 a 1,1 0 0 0 -1,-1 z"
+       color="#000000"
+       fill="#000000"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       style="-inkscape-stroke:none"
+       id="path74" />
+    <text
+       x="640.01465"
+       y="315"
+       fill="#000000"
+       font-family="Roboto"
+       text-anchor="middle"
+       style="font-size:20px;line-height:1.25;letter-spacing:0px"
+       xml:space="preserve"
+       id="text182"><tspan
+         x="640.01465"
+         y="315"
+         text-align="center"
+         id="tspan178">tolerância à </tspan><tspan
+         x="640.01465"
+         y="340"
+         text-align="center"
+         id="tspan180">atividade física</tspan></text>
+  </g>
+  <g
+     id="g1556">
+    <path
+       d="m 890.66,254.99 0.658,-0.753 -1.505,-1.317 -0.659,0.752 z m -189.75,215.34 10.93,-3.724 -8.69,-7.604 z M 889.16,253.67 706.09,462.9 l 1.505,1.317 183.07,-209.23 z"
+       id="path30"
+       style="fill:#0044f3" />
+    <path
+       d="m 890.9,151 v -1 h -2 v 1 z m -1,35 5.774,-10 h -11.548 z m -1,-35 v 26 h 2 v -26 z"
+       id="path62"
+       style="fill:#0044f3" />
+    <path
+       d="m 844.72,217.6851 a 1,1 0 0 1 -1,-1 v -11.586 l -5.293,5.293 a 1,1 0 0 1 -0.70704,0.29297 1,1 0 0 1 -0.70703,-0.29297 1,1 0 0 1 0,-1.4141 l 7,-7 a 1.0001,1.0001 0 0 1 0.0625,-0.0469 1,1 0 0 1 0.12891,-0.0918 1.0001,1.0001 0 0 1 0.13476,-0.0684 1,1 0 0 1 0.14844,-0.0488 1.0001,1.0001 0 0 1 0.1582,-0.0254 1,1 0 0 1 0.0742,-0.0117 1,1 0 0 1 0.0742,0.0117 1.0001,1.0001 0 0 1 0.15821,0.0254 1,1 0 0 1 0.14843,0.0488 1.0001,1.0001 0 0 1 0.13477,0.0684 1,1 0 0 1 0.12891,0.0918 1.0001,1.0001 0 0 1 0.0625,0.0469 l 7,7 a 1,1 0 0 1 0,1.4141 1,1 0 0 1 -1.4141,0 l -5.293,-5.293 v 11.586 a 1,1 0 0 1 -1,1 z"
+       color="#000000"
+       fill="#000000"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       style="-inkscape-stroke:none"
+       id="path186" />
+    <text
+       x="862.12976"
+       y="215.20512"
+       font-family="'Bebas Neue'"
+       font-size="20px"
+       letter-spacing="0px"
+       style="line-height:1.25"
+       xml:space="preserve"
+       id="text190"><tspan
+         x="862.12976"
+         y="215.20512"
+         fill="#000000"
+         font-family="Roboto"
+         font-size="20px"
+         id="tspan188">fadiga</tspan></text>
+  </g>
+  <g
+     id="g1770">
+    <path
+       d="m 1153,191 v -1 h -2 v 1 z m -1,35 5.77,-10 h -11.54 z m -1,-35 v 26 h 2 v -26 z"
+       id="path64"
+       style="fill:#0044f3" />
+    <text
+       x="1094.7295"
+       y="264.41406"
+       font-family="'Bebas Neue'"
+       font-size="20px"
+       letter-spacing="0px"
+       style="line-height:1.25"
+       xml:space="preserve"
+       id="text196"><tspan
+         x="1094.7295"
+         y="264.41406"
+         fill="#000000"
+         font-family="Roboto"
+         font-size="20px"
+         id="tspan194">Osteoporose</tspan></text>
+  </g>
+  <g
+     id="g1663">
+    <path
+       d="m 1153,291 v -1 h -2 v 1 z m -1,35 5.77,-10 h -11.54 z m -1,-35 v 26 h 2 v -26 z"
+       id="path32"
+       style="fill:#0044f3" />
+    <path
+       d="m1080.1 408.68 0.966-0.25882-0.5177-1.9319-0.9659 0.25882zm-323.84 85.738 11.154 2.9891-2.9888-11.155zm323.33-87.67-314.89 84.375 0.51764 1.9318 314.89-84.375z"
+       fill="#0044f3"
+       id="path112" />
+    <text
+       x="1115.0762"
+       y="364.21875"
+       font-family="'Bebas Neue'"
+       font-size="20px"
+       letter-spacing="0px"
+       style="line-height:1.25"
+       xml:space="preserve"
+       id="text200"><tspan
+         x="1115.0762"
+         y="364.21875"
+         fill="#000000"
+         font-family="Roboto"
+         font-size="20px"
+         id="tspan198">Fraturas</tspan></text>
+  </g>
+  <g
+     id="linha-1">
+    <text
+       x="55.578125"
+       y="65"
+       fill="#666666"
+       font-family="'Bebas Neue'"
+       font-size="40px"
+       letter-spacing="0px"
+       style="line-height:1.25"
+       xml:space="preserve"
+       id="text84"><tspan
+         x="55.578125"
+         y="65"
+         id="tspan80" /><tspan
+         x="55.578125"
+         y="115"
+         fill="#000000"
+         font-family="Roboto"
+         font-size="20px"
+         id="tspan82">Rigidez articular</tspan></text>
+    <g
+       fill="#0044f3"
+       id="g98">
+      <path
+         d="m127 50v2h1026v-2h-1025z"
+         color="#000000"
+         stroke-linecap="square"
+         style="-inkscape-stroke:none"
+         id="path86" />
+      <path
+         d="m129 51v-1h-2v1zm-1 35 5.774-10h-11.548zm-1-35v26h2v-26z"
+         id="path88" />
+      <path
+         d="m385 51v-1h-2v1zm-1 35 5.774-10h-11.548zm-1-35v26h2v-26z"
+         id="path90" />
+      <path
+         d="m641 21v-1h-2v1zm-1 60 5.774-10h-11.548zm-1-60v51h2v-51z"
+         id="path92" />
+      <path
+         d="m890.9 51v-1h-2v1zm-1 35 5.774-10h-11.548zm-1-35v26h2v-26z"
+         id="path94" />
+      <path
+         d="m1153 51v-1h-2v1zm-1 35 5.77-10h-11.54zm-1-35v26h2v-26z"
+         id="path96" />
+    </g>
+    <g
+       transform="translate(0 -9.9023)"
+       id="g108">
+      <text
+         x="895.98535"
+         y="124.90234"
+         fill="#000000"
+         font-family="Roboto"
+         font-size="20px"
+         letter-spacing="0px"
+         text-anchor="middle"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="text104"><tspan
+           x="895.98535"
+           y="124.90234"
+           text-align="center"
+           id="tspan100">do condicionamento</tspan><tspan
+           x="895.98535"
+           y="149.90234"
+           text-align="center"
+           id="tspan102">físico</tspan></text>
+      <path
+         d="m787.8 109.9a1 1 0 0 0-1 1v11.586l-5.293-5.293a1 1 0 0 0-0.70704-0.29297 1 1 0 0 0-0.70703 0.29297 1 1 0 0 0 0 1.4141l7 7a1.0001 1.0001 0 0 0 0.0625 0.0469 1 1 0 0 0 0.12891 0.0918 1.0001 1.0001 0 0 0 0.13476 0.0684 1 1 0 0 0 0.14844 0.0488 1.0001 1.0001 0 0 0 0.1582 0.0254 1 1 0 0 0 0.0742 0.0117 1 1 0 0 0 0.0742-0.0117 1.0001 1.0001 0 0 0 0.15821-0.0254 1 1 0 0 0 0.14843-0.0488 1.0001 1.0001 0 0 0 0.13477-0.0684 1 1 0 0 0 0.12891-0.0918 1.0001 1.0001 0 0 0 0.0625-0.0469l7-7a1 1 0 0 0 0-1.4141 1 1 0 0 0-1.4141 0l-5.293 5.293v-11.586a1 1 0 0 0-1-1z"
+         color="#000000"
+         fill="#000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         style="-inkscape-stroke:none"
+         id="path106" />
+    </g>
+    <g
+       transform="translate(0 -5.4199)"
+       id="g142">
+      <path
+         d="m1076.5 105.42a1 1 0 0 0-1 1v11.586l-5.2929-5.293a1 1 0 0 0-0.7071-0.29297 1 1 0 0 0-0.707 0.29297 1 1 0 0 0 0 1.4141l7 7a1.0001 1.0001 0 0 0 0.062 0.0469 1 1 0 0 0 0.1289 0.0918 1.0001 1.0001 0 0 0 0.1348 0.0684 1 1 0 0 0 0.1484 0.0488 1.0001 1.0001 0 0 0 0.1582 0.0254 1 1 0 0 0 0.074 0.0117 1 1 0 0 0 0.074-0.0117 1.0001 1.0001 0 0 0 0.1582-0.0254 1 1 0 0 0 0.1484-0.0488 1.0001 1.0001 0 0 0 0.1348-0.0684 1 1 0 0 0 0.1289-0.0918 1.0001 1.0001 0 0 0 0.062-0.0469l7-7a1 1 0 0 0 0-1.4141 1 1 0 0 0-1.4141 0l-5.2929 5.293v-11.586a1 1 0 0 0-1-1z"
+         color="#000000"
+         fill="#000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         style="-inkscape-stroke:none"
+         id="path132" />
+      <text
+         x="1152.3174"
+         y="120.41992"
+         fill="#000000"
+         font-family="Roboto"
+         font-size="20px"
+         letter-spacing="0px"
+         text-anchor="middle"
+         style="line-height:1.25"
+         xml:space="preserve"
+         id="text140"><tspan
+           x="1152.3174"
+           y="120.41992"
+           text-align="center"
+           id="tspan134">tensão sobre</tspan><tspan
+           x="1152.3174"
+           y="145.41992"
+           text-align="center"
+           id="tspan136">tendões e</tspan><tspan
+           x="1152.3174"
+           y="170.41992"
+           text-align="center"
+           id="tspan138">ligamentos</tspan></text>
+    </g>
+    <path
+       d="m550.93 101.53a1 1 0 0 0-1 1v11.586l-5.293-5.293a1 1 0 0 0-0.70704-0.29297 1 1 0 0 0-0.70703 0.29297 1 1 0 0 0 0 1.4141l7 7a1.0001 1.0001 0 0 0 0.0625 0.0469 1 1 0 0 0 0.12891 0.0918 1.0001 1.0001 0 0 0 0.13476 0.0684 1 1 0 0 0 0.14844 0.0488 1.0001 1.0001 0 0 0 0.1582 0.0254 1 1 0 0 0 0.0742 0.0117 1 1 0 0 0 0.0742-0.0117 1.0001 1.0001 0 0 0 0.15821-0.0254 1 1 0 0 0 0.14843-0.0488 1.0001 1.0001 0 0 0 0.13477-0.0684 1 1 0 0 0 0.12891-0.0918 1.0001 1.0001 0 0 0 0.0625-0.0469l7-7a1 1 0 0 0 0-1.4141 1 1 0 0 0-1.4141 0l-5.293 5.293v-11.586a1 1 0 0 0-1-1z"
+       color="#000000"
+       fill="#000"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       style="-inkscape-stroke:none"
+       id="path160" />
+    <text
+       x="568.03259"
+       y="115"
+       font-family="'Bebas Neue'"
+       font-size="20px"
+       letter-spacing="0px"
+       style="line-height:1.25"
+       xml:space="preserve"
+       id="text164"><tspan
+         x="568.03259"
+         y="115"
+         fill="#000000"
+         font-family="Roboto"
+         font-size="20px"
+         id="tspan162">capacidade vital</tspan></text>
+    <path
+       d="m299.39 101.77a1 1 0 0 0-1 1v11.586l-5.293-5.293a1 1 0 0 0-0.70704-0.29297 1 1 0 0 0-0.70703 0.29297 1 1 0 0 0 0 1.4141l7 7a1.0001 1.0001 0 0 0 0.0625 0.0469 1 1 0 0 0 0.12891 0.0918 1.0001 1.0001 0 0 0 0.13476 0.0684 1 1 0 0 0 0.14844 0.0488 1.0001 1.0001 0 0 0 0.1582 0.0254 1 1 0 0 0 0.0742 0.0117 1 1 0 0 0 0.0742-0.0117 1.0001 1.0001 0 0 0 0.15821-0.0254 1 1 0 0 0 0.14843-0.0488 1.0001 1.0001 0 0 0 0.13477-0.0684 1 1 0 0 0 0.12891-0.0918 1.0001 1.0001 0 0 0 0.0625-0.0469l7-7a1 1 0 0 0 0-1.4141 1 1 0 0 0-1.4141 0l-5.293 5.293v-11.586a1 1 0 0 0-1-1z"
+       color="#000000"
+       fill="#000"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       style="-inkscape-stroke:none"
+       id="path202" />
+    <text
+       x="316.80807"
+       y="115.20508"
+       font-family="'Bebas Neue'"
+       font-size="20px"
+       letter-spacing="0px"
+       style="line-height:1.25"
+       xml:space="preserve"
+       id="text206"><tspan
+         x="316.80807"
+         y="115.20508"
+         fill="#000000"
+         font-family="Roboto"
+         font-size="20px"
+         id="tspan204">força muscular</tspan></text>
+  </g>
 </svg>

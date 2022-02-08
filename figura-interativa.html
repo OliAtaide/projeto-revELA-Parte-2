@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Figura Interativa</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</head>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+  * {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .font-plus,
+  .font-minus {
+    font-family: 'Nunito', sans-serif !important;
+    font-weight: bold;
+  }
+
+  .imobilidade {
+    background-color: #f6f6f6;
+    font-size: 30px;
+  }
+
+  text {
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  .form-check-input {
+    width: 3em !important;
+    height: 2em;
+  }
+
+  .form-check-input:checked {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba%280, 0, 0, 0.25%29'/%3e%3c/svg%3e") !important;
+    border: none;
+  }
+
+  .bi {
+    font-size: 2.5em;
+  }
+
+  .alert-dark {
+    background-color: #B9B9B9 !important;
+    border: 2px solid white !important;
+    color: black !important;
+  }
+</style>
+
+<body>
+  <div class="position-relative my-3 d-flex flex-column align-items-center">
+    <div class="ms-auto position-absolute end-0 d-flex align-items-center">
+      <div class="form-check form-switch me-3 ">
+        <input class="form-check-input bg-white" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+      </div>
+      <button class="font-plus btn btn-sm btn-outline-secondary border-end-0 bg-white rounded-end rounded-pill">
+        A+
+      </button>
+      <button class="font-minus btn btn-sm btn-outline-secondary bg-white rounded-start rounded-pill">
+        A-
+      </button>
+    </div>
+    <div class="d-flex align-items-center">
+      <div>
+        <h3 class="text-center fw-bold">FRAQUEZA MUSCULAR</h3>
+      </div>
+    </div>
+    <div class="d-flex mt-3">
+      <i class="bi bi-arrow-return-right"></i>
+      <button class="btn mx-3 fw-bold imobilidade border border-dark">Imobilidade</button>
+      <i class="bi bi-arrow-return-left"></i>
+    </div>
+    <svg
+      width="1280"
+      height="540"
+      fill="none"
+      version="1.1"
+      viewBox="0 0 1280 540"
+      id="svg208"
+      sodipodi:docname="figura.svg"
+      inkscape:version="1.1.1 (1:1.1+202109281949+c3084ef5ed)"
+      xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+      xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:svg="http://www.w3.org/2000/svg">
+      <defs
+        id="defs212" />
+      <path
+        d="m129 251v-1h-2v1z"
+        fill="#000"
+        id="path22" />
+      <text
+        x="-2.4218748"
+        y="-137.91608"
+        fill="#000000"
+        font-family="Roboto"
+        font-size="20px"
+        letter-spacing="0em"
+        style="white-space:pre"
+        xml:space="preserve"
+        id="text78" />
+      <g
+        transform="translate(0 -58.264)"
+        id="g118">
+        <rect
+          x="550"
+          y="558.26"
+          width="180"
+          height="40"
+          fill="none"
+          id="rect114" />
+        <text
+          x="-38.641624"
+          y="-63.442261"
+          fill="#000000"
+          font-family="Roboto"
+          font-size="28px"
+          font-weight="600"
+          letter-spacing="0em"
+          style="white-space:pre"
+          xml:space="preserve"
+          id="text116" />
+      </g>
+      <text
+        x="-2.4218748"
+        y="-39.005878"
+        fill="#000000"
+        font-family="Roboto"
+        font-size="20px"
+        letter-spacing="0em"
+        style="white-space:pre"
+        xml:space="preserve"
+        id="text122" />
+      <g
+        id="g1955">
+        <path
+          d="m 129,151 v -1 h -2 v 1 z m -1,35 5.774,-10 h -11.548 z m -1,-35 v 26 h 2 v -26 z"
+          id="path56"
+          style="fill:#0044f3" />
+        <g
+          fill="#0044f3"
+          id="g20">
+          <path
+            d="m 534,504.86 v 4.7734 H 127 v 2 h 407 v 4.7734 l 10,-5.7734 z"
+            id="path16" />
+          <path
+            d="m 127,251 v 260.64 h 2 V 251 Z"
+            id="path18" />
+        </g>
+        <text
+          x="111.67676"
+          y="214.21875"
+          fill="#666666"
+          font-family="'Bebas Neue'"
+          font-size="40px"
+          letter-spacing="0px"
+          style="line-height:1.25"
+          xml:space="preserve"
+          id="text126"><tspan
+            x="111.67676"
+            y="214.21875"
+            fill="#000000"
+            font-family="Roboto"
+            font-size="20px"
+            id="tspan124">Dor</tspan></text>
+      </g>
+      <text
+        x="1152.3174"
+        y="120.41992"
+        fill="#000000"
+        font-family="'Bebas Neue'"
+        font-size="20px"
+        letter-spacing="0px"
+        style="line-height:1.25"
+        xml:space="preserve"
+        id="text130"><tspan
+          x="1152.3174"
+          y="120.41992"
+          fill="#000000"
+          font-family="Roboto"
+          font-size="20px"
+          text-align="center"
+          text-anchor="middle"
+          id="tspan128" /></text>
+      <text
+        x="654.75299"
+        y="668.29059"
+        font-size="40px"
+        style="line-height:1.25;font-family:'Bebas Neue';letter-spacing:0px"
+        xml:space="preserve"
+        id="text148"><tspan
+          x="654.75299"
+          y="668.29059"
+          id="tspan144" /><tspan
+          x="654.75299"
+          y="718.29059"
+          fill="#000000"
+          font-size="20px"
+          id="tspan146" /></text>
+      <text
+        x="568.91266"
+        y="520"
+        font-size="26.667px"
+        style="line-height:1.25;font-family:'Bebas Neue';letter-spacing:0px"
+        xml:space="preserve"
+        id="text152"><tspan
+          x="568.91266"
+          y="520"
+          fill="#000000"
+          font-family="Roboto"
+          font-size="26.667px"
+          font-weight="bold"
+          id="tspan150">Imobilidade</tspan></text>
+      <g
+        id="g1780">
+        <path
+          d="m 385,141 v -1 h -2 v 1 z m -1,35 5.774,-10 h -11.548 z m -1,-35 v 26 h 2 v -26 z"
+          id="path58"
+          style="fill:#0044f3" />
+        <text
+          x="292.09082"
+          y="215.20508"
+          font-size="20px"
+          style="line-height:1.25;font-family:'Bebas Neue';letter-spacing:0px"
+          xml:space="preserve"
+          id="text156"><tspan
+            x="292.09082"
+            y="215.20508"
+            fill="#000000"
+            font-family="Roboto"
+            font-size="20px"
+            id="tspan154">Hipertrofia muscular</tspan></text>
+      </g>
+      <g
+        id="g2088">
+        <path
+          d="m 385,241 v -1 h -2 v 1 z m -1,35 5.774,-10 h -11.548 z m -1,-35 v 26 h 2 v -26 z"
+          id="path24"
+          style="fill:#0044f3" />
+        <text
+          x="292.62793"
+          y="315"
+          font-family="'Bebas Neue'"
+          style="font-size:20px;line-height:1.25;letter-spacing:0px"
+          xml:space="preserve"
+          id="text168"><tspan
+            x="292.62793"
+            y="315"
+            fill="#000000"
+            font-family="Roboto"
+            font-size="20px"
+            id="tspan166">Contratura muscular</tspan></text>
+      </g>
+      <g
+        id="g1161">
+        <path
+          d="m385 341v-1h-2v1zm-1 35 5.774-10h-11.548zm-1-35v26h2v-26z"
+          fill="#0044f3"
+          id="path14" />
+        <path
+          d="m460 438.27-0.86603-0.5-1 1.732 0.86603 0.5zm88.701 52.366-5.7733-10-5.7735 10zm-89.701-50.634 81.406 47 1-1.732-81.406-47z"
+          fill="#0044f3"
+          id="path120" />
+        <text
+          x="320.88965"
+          y="415.20508"
+          font-family="'Bebas Neue'"
+          style="font-size:20px;line-height:1.25;letter-spacing:0px"
+          xml:space="preserve"
+          id="text172"><tspan
+            x="320.88965"
+            y="415.20508"
+            fill="#000000"
+            font-family="Roboto"
+            font-size="20px"
+            id="tspan170">Deformidades</tspan></text>
+      </g>
+      <g
+        id="g1775">
+        <path
+          d="m 641,141 v -1 h -2 v 1 z m -1,35 5.774,-10 h -11.548 z m -1,-35 v 26 h 2 v -26 z"
+          id="path60"
+          style="fill:#0044f3" />
+        <text
+          x="573.2959"
+          y="215"
+          font-family="'Bebas Neue'"
+          style="font-size:20px;line-height:1.25;letter-spacing:0px"
+          xml:space="preserve"
+          id="text176"><tspan
+            x="573.2959"
+            y="215"
+            fill="#000000"
+            font-family="Roboto"
+            font-size="20px"
+            id="tspan174">Hipoventilação</tspan></text>
+      </g>
+      <g
+        id="g1439">
+        <path
+          d="m 641,241 v -1 h -2 v 1 z m -1,35 5.774,-10 h -11.548 z m -1,-35 v 26 h 2 v -26 z"
+          id="path26"
+          style="fill:#0044f3" />
+        <path
+          d="m 641,371 v -1 h -2 v 1 z m -1,103 5.774,-10 h -11.547 z m -1,-103 v 94 h 2 v -94 z"
+          id="path28"
+          style="fill:#0044f3" />
+        <path
+          d="m 555.98,317.005 a 1,1 0 0 0 -1,1 v 11.586 l -5.293,-5.293 a 1,1 0 0 0 -0.70704,-0.29297 1,1 0 0 0 -0.70703,0.29297 1,1 0 0 0 0,1.4141 l 7,7 a 1.0001,1.0001 0 0 0 0.0625,0.0469 1,1 0 0 0 0.12891,0.0918 1.0001,1.0001 0 0 0 0.13476,0.0684 1,1 0 0 0 0.14844,0.0488 1.0001,1.0001 0 0 0 0.1582,0.0254 1,1 0 0 0 0.0742,0.0117 1,1 0 0 0 0.0742,-0.0117 1.0001,1.0001 0 0 0 0.15822,-0.0254 1,1 0 0 0 0.14843,-0.0488 1.0001,1.0001 0 0 0 0.13477,-0.0684 1,1 0 0 0 0.12891,-0.0918 1.0001,1.0001 0 0 0 0.0625,-0.0469 l 7,-7 a 1,1 0 0 0 0,-1.4141 1,1 0 0 0 -1.4141,0 l -5.293,5.293 v -11.586 a 1,1 0 0 0 -1,-1 z"
+          color="#000000"
+          fill="#000000"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          style="-inkscape-stroke:none"
+          id="path74" />
+        <text
+          x="640.01465"
+          y="315"
+          fill="#000000"
+          font-family="Roboto"
+          text-anchor="middle"
+          style="font-size:20px;line-height:1.25;letter-spacing:0px"
+          xml:space="preserve"
+          id="text182"><tspan
+            x="640.01465"
+            y="315"
+            text-align="center"
+            id="tspan178">tolerância à </tspan><tspan
+            x="640.01465"
+            y="340"
+            text-align="center"
+            id="tspan180">atividade física</tspan></text>
+      </g>
+      <g
+        id="g1556">
+        <path
+          d="m 890.66,254.99 0.658,-0.753 -1.505,-1.317 -0.659,0.752 z m -189.75,215.34 10.93,-3.724 -8.69,-7.604 z M 889.16,253.67 706.09,462.9 l 1.505,1.317 183.07,-209.23 z"
+          id="path30"
+          style="fill:#0044f3" />
+        <path
+          d="m 890.9,151 v -1 h -2 v 1 z m -1,35 5.774,-10 h -11.548 z m -1,-35 v 26 h 2 v -26 z"
+          id="path62"
+          style="fill:#0044f3" />
+        <path
+          d="m 844.72,217.6851 a 1,1 0 0 1 -1,-1 v -11.586 l -5.293,5.293 a 1,1 0 0 1 -0.70704,0.29297 1,1 0 0 1 -0.70703,-0.29297 1,1 0 0 1 0,-1.4141 l 7,-7 a 1.0001,1.0001 0 0 1 0.0625,-0.0469 1,1 0 0 1 0.12891,-0.0918 1.0001,1.0001 0 0 1 0.13476,-0.0684 1,1 0 0 1 0.14844,-0.0488 1.0001,1.0001 0 0 1 0.1582,-0.0254 1,1 0 0 1 0.0742,-0.0117 1,1 0 0 1 0.0742,0.0117 1.0001,1.0001 0 0 1 0.15821,0.0254 1,1 0 0 1 0.14843,0.0488 1.0001,1.0001 0 0 1 0.13477,0.0684 1,1 0 0 1 0.12891,0.0918 1.0001,1.0001 0 0 1 0.0625,0.0469 l 7,7 a 1,1 0 0 1 0,1.4141 1,1 0 0 1 -1.4141,0 l -5.293,-5.293 v 11.586 a 1,1 0 0 1 -1,1 z"
+          color="#000000"
+          fill="#000000"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          style="-inkscape-stroke:none"
+          id="path186" />
+        <text
+          x="862.12976"
+          y="215.20512"
+          font-family="'Bebas Neue'"
+          font-size="20px"
+          letter-spacing="0px"
+          style="line-height:1.25"
+          xml:space="preserve"
+          id="text190"><tspan
+            x="862.12976"
+            y="215.20512"
+            fill="#000000"
+            font-family="Roboto"
+            font-size="20px"
+            id="tspan188">fadiga</tspan></text>
+      </g>
+      <g
+        id="g1770">
+        <path
+          d="m 1153,191 v -1 h -2 v 1 z m -1,35 5.77,-10 h -11.54 z m -1,-35 v 26 h 2 v -26 z"
+          id="path64"
+          style="fill:#0044f3" />
+        <text
+          x="1094.7295"
+          y="264.41406"
+          font-family="'Bebas Neue'"
+          font-size="20px"
+          letter-spacing="0px"
+          style="line-height:1.25"
+          xml:space="preserve"
+          id="text196"><tspan
+            x="1094.7295"
+            y="264.41406"
+            fill="#000000"
+            font-family="Roboto"
+            font-size="20px"
+            id="tspan194">Osteoporose</tspan></text>
+      </g>
+      <g
+        id="g1663">
+        <path
+          d="m 1153,291 v -1 h -2 v 1 z m -1,35 5.77,-10 h -11.54 z m -1,-35 v 26 h 2 v -26 z"
+          id="path32"
+          style="fill:#0044f3" />
+        <path
+          d="m1080.1 408.68 0.966-0.25882-0.5177-1.9319-0.9659 0.25882zm-323.84 85.738 11.154 2.9891-2.9888-11.155zm323.33-87.67-314.89 84.375 0.51764 1.9318 314.89-84.375z"
+          fill="#0044f3"
+          id="path112" />
+        <text
+          x="1115.0762"
+          y="364.21875"
+          font-family="'Bebas Neue'"
+          font-size="20px"
+          letter-spacing="0px"
+          style="line-height:1.25"
+          xml:space="preserve"
+          id="text200"><tspan
+            x="1115.0762"
+            y="364.21875"
+            fill="#000000"
+            font-family="Roboto"
+            font-size="20px"
+            id="tspan198">Fraturas</tspan></text>
+      </g>
+      <g
+        id="g1984">
+        <text
+          x="55.578125"
+          y="65"
+          fill="#666666"
+          font-family="'Bebas Neue'"
+          font-size="40px"
+          letter-spacing="0px"
+          style="line-height:1.25"
+          xml:space="preserve"
+          id="text84"><tspan
+            x="55.578125"
+            y="65"
+            id="tspan80" /><tspan
+            x="55.578125"
+            y="115"
+            fill="#000000"
+            font-family="Roboto"
+            font-size="20px"
+            id="tspan82">Rigidez articular</tspan></text>
+        <g
+          fill="#0044f3"
+          id="g98">
+          <path
+            d="m127 50v2h1026v-2h-1025z"
+            color="#000000"
+            stroke-linecap="square"
+            style="-inkscape-stroke:none"
+            id="path86" />
+          <path
+            d="m129 51v-1h-2v1zm-1 35 5.774-10h-11.548zm-1-35v26h2v-26z"
+            id="path88" />
+          <path
+            d="m385 51v-1h-2v1zm-1 35 5.774-10h-11.548zm-1-35v26h2v-26z"
+            id="path90" />
+          <path
+            d="m641 21v-1h-2v1zm-1 60 5.774-10h-11.548zm-1-60v51h2v-51z"
+            id="path92" />
+          <path
+            d="m890.9 51v-1h-2v1zm-1 35 5.774-10h-11.548zm-1-35v26h2v-26z"
+            id="path94" />
+          <path
+            d="m1153 51v-1h-2v1zm-1 35 5.77-10h-11.54zm-1-35v26h2v-26z"
+            id="path96" />
+        </g>
+        <g
+          transform="translate(0 -9.9023)"
+          id="g108">
+          <text
+            x="895.98535"
+            y="124.90234"
+            fill="#000000"
+            font-family="Roboto"
+            font-size="20px"
+            letter-spacing="0px"
+            text-anchor="middle"
+            style="line-height:1.25"
+            xml:space="preserve"
+            id="text104"><tspan
+              x="895.98535"
+              y="124.90234"
+              text-align="center"
+              id="tspan100">do condicionamento</tspan><tspan
+              x="895.98535"
+              y="149.90234"
+              text-align="center"
+              id="tspan102">físico</tspan></text>
+          <path
+            d="m787.8 109.9a1 1 0 0 0-1 1v11.586l-5.293-5.293a1 1 0 0 0-0.70704-0.29297 1 1 0 0 0-0.70703 0.29297 1 1 0 0 0 0 1.4141l7 7a1.0001 1.0001 0 0 0 0.0625 0.0469 1 1 0 0 0 0.12891 0.0918 1.0001 1.0001 0 0 0 0.13476 0.0684 1 1 0 0 0 0.14844 0.0488 1.0001 1.0001 0 0 0 0.1582 0.0254 1 1 0 0 0 0.0742 0.0117 1 1 0 0 0 0.0742-0.0117 1.0001 1.0001 0 0 0 0.15821-0.0254 1 1 0 0 0 0.14843-0.0488 1.0001 1.0001 0 0 0 0.13477-0.0684 1 1 0 0 0 0.12891-0.0918 1.0001 1.0001 0 0 0 0.0625-0.0469l7-7a1 1 0 0 0 0-1.4141 1 1 0 0 0-1.4141 0l-5.293 5.293v-11.586a1 1 0 0 0-1-1z"
+            color="#000000"
+            fill="#000"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            style="-inkscape-stroke:none"
+            id="path106" />
+        </g>
+        <g
+          transform="translate(0 -5.4199)"
+          id="g142">
+          <path
+            d="m1076.5 105.42a1 1 0 0 0-1 1v11.586l-5.2929-5.293a1 1 0 0 0-0.7071-0.29297 1 1 0 0 0-0.707 0.29297 1 1 0 0 0 0 1.4141l7 7a1.0001 1.0001 0 0 0 0.062 0.0469 1 1 0 0 0 0.1289 0.0918 1.0001 1.0001 0 0 0 0.1348 0.0684 1 1 0 0 0 0.1484 0.0488 1.0001 1.0001 0 0 0 0.1582 0.0254 1 1 0 0 0 0.074 0.0117 1 1 0 0 0 0.074-0.0117 1.0001 1.0001 0 0 0 0.1582-0.0254 1 1 0 0 0 0.1484-0.0488 1.0001 1.0001 0 0 0 0.1348-0.0684 1 1 0 0 0 0.1289-0.0918 1.0001 1.0001 0 0 0 0.062-0.0469l7-7a1 1 0 0 0 0-1.4141 1 1 0 0 0-1.4141 0l-5.2929 5.293v-11.586a1 1 0 0 0-1-1z"
+            color="#000000"
+            fill="#000"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            style="-inkscape-stroke:none"
+            id="path132" />
+          <text
+            x="1152.3174"
+            y="120.41992"
+            fill="#000000"
+            font-family="Roboto"
+            font-size="20px"
+            letter-spacing="0px"
+            text-anchor="middle"
+            style="line-height:1.25"
+            xml:space="preserve"
+            id="text140"><tspan
+              x="1152.3174"
+              y="120.41992"
+              text-align="center"
+              id="tspan134">tensão sobre</tspan><tspan
+              x="1152.3174"
+              y="145.41992"
+              text-align="center"
+              id="tspan136">tendões e</tspan><tspan
+              x="1152.3174"
+              y="170.41992"
+              text-align="center"
+              id="tspan138">ligamentos</tspan></text>
+        </g>
+        <path
+          d="m550.93 101.53a1 1 0 0 0-1 1v11.586l-5.293-5.293a1 1 0 0 0-0.70704-0.29297 1 1 0 0 0-0.70703 0.29297 1 1 0 0 0 0 1.4141l7 7a1.0001 1.0001 0 0 0 0.0625 0.0469 1 1 0 0 0 0.12891 0.0918 1.0001 1.0001 0 0 0 0.13476 0.0684 1 1 0 0 0 0.14844 0.0488 1.0001 1.0001 0 0 0 0.1582 0.0254 1 1 0 0 0 0.0742 0.0117 1 1 0 0 0 0.0742-0.0117 1.0001 1.0001 0 0 0 0.15821-0.0254 1 1 0 0 0 0.14843-0.0488 1.0001 1.0001 0 0 0 0.13477-0.0684 1 1 0 0 0 0.12891-0.0918 1.0001 1.0001 0 0 0 0.0625-0.0469l7-7a1 1 0 0 0 0-1.4141 1 1 0 0 0-1.4141 0l-5.293 5.293v-11.586a1 1 0 0 0-1-1z"
+          color="#000000"
+          fill="#000"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          style="-inkscape-stroke:none"
+          id="path160" />
+        <text
+          x="568.03259"
+          y="115"
+          font-family="'Bebas Neue'"
+          font-size="20px"
+          letter-spacing="0px"
+          style="line-height:1.25"
+          xml:space="preserve"
+          id="text164"><tspan
+            x="568.03259"
+            y="115"
+            fill="#000000"
+            font-family="Roboto"
+            font-size="20px"
+            id="tspan162">capacidade vital</tspan></text>
+        <path
+          d="m299.39 101.77a1 1 0 0 0-1 1v11.586l-5.293-5.293a1 1 0 0 0-0.70704-0.29297 1 1 0 0 0-0.70703 0.29297 1 1 0 0 0 0 1.4141l7 7a1.0001 1.0001 0 0 0 0.0625 0.0469 1 1 0 0 0 0.12891 0.0918 1.0001 1.0001 0 0 0 0.13476 0.0684 1 1 0 0 0 0.14844 0.0488 1.0001 1.0001 0 0 0 0.1582 0.0254 1 1 0 0 0 0.0742 0.0117 1 1 0 0 0 0.0742-0.0117 1.0001 1.0001 0 0 0 0.15821-0.0254 1 1 0 0 0 0.14843-0.0488 1.0001 1.0001 0 0 0 0.13477-0.0684 1 1 0 0 0 0.12891-0.0918 1.0001 1.0001 0 0 0 0.0625-0.0469l7-7a1 1 0 0 0 0-1.4141 1 1 0 0 0-1.4141 0l-5.293 5.293v-11.586a1 1 0 0 0-1-1z"
+          color="#000000"
+          fill="#000"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          style="-inkscape-stroke:none"
+          id="path202" />
+        <text
+          x="316.80807"
+          y="115.20508"
+          font-family="'Bebas Neue'"
+          font-size="20px"
+          letter-spacing="0px"
+          style="line-height:1.25"
+          xml:space="preserve"
+          id="text206"><tspan
+            x="316.80807"
+            y="115.20508"
+            fill="#000000"
+            font-family="Roboto"
+            font-size="20px"
+            id="tspan204">força muscular</tspan></text>
+      </g>
+    </svg>
+
+
+
+    <svg width="30" height="63" viewBox="0 0 30 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M17.5 3L17.5 0.5L12.5 0.5L12.5 3L17.5 3ZM15 63L29.4338 38L0.566245 38L15 63ZM12.5 3L12.5 40.5L17.5 40.5L17.5 3L12.5 3Z"
+        fill="#0044F3" />
+    </svg>
+    <h3 class="text-center fw-bold my-3">Piora de QUALIDADE DE VIDA</h3>
+    <div class="alert alert-warning border border-dark w-50 text-center">
+      A soma de todos estes fatores leva a um ciclo, que predispõe à permanência prolongada no leito (o aumento do
+      imobilismo), e consequentemente, uma pior qualidade de vida.
+    </div>
+  </div>
+</body>
+
+<script>
+  $('text').click(function () {
+    console.log($(this));
+  })
+
+  var min_width = $('svg').width();
+  var max_width = min_width * 1.5;
+
+  $('.font-plus').click(function () {
+    var w = $('svg').width();
+    if (w < max_width) {
+      w += (min_width * 0.1);
+      $('svg').css('width', w + 'px');
+    }
+  })
+
+  $('.font-minus').click(function () {
+    var w = $('svg').width();
+    if (w > min_width) {
+      w -= (min_width * 0.1);
+      $('svg').css('width', w + 'px');
+    }
+  })
+
+  $('.form-check-input').change(function () {
+    if ($(this).is(':checked')) {
+      $('body').css('background-color', '#000');
+      $('h3, i').css('color', '#fff');
+      $('text').css('fill', '#fff');
+      $('path').css('fill', '#B9B9B9');
+      $('path, line').css('stroke', '#B9B9B9');
+      $('.alert').addClass('alert-dark');
+    }
+    else {
+      $('body').css('background-color', '#fff');
+      $('h3, i').css('color', '#000');
+      $('text').css('fill', '#000');
+      $('path').css('fill', '#0044F3');
+      $('path, line').css('stroke', '#0044F3');
+      $('.alert').removeClass('alert-dark');
+    }
+  })
+
+
+
+</script>
+
+</html>

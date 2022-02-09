@@ -35,7 +35,7 @@ $('.form-check-input').change(function () {
         $('#titulo').css('fill', '#000');
         botoes.find('rect').css('fill', '#96D2E7');
         $('#fase rect').css('fill', '#FF8D3E');
-        $('#titulo rect').css('fill', '#838383');
+        $('#titulo rect').css('fill', '#5a729a');
         $('path').css('fill', 'black');
     }
 })

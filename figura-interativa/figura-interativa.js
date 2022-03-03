@@ -49,9 +49,27 @@ $('.form-check-input').change(function () {
 
 // new
 
-console.log($('.col').children('[id!="undefined"]'));
-$('.conteudo').hide();
+$('.conteudo, .botao, .alerta, .canvas, .conclusao').hide();
 
+$('.titulo').click(function () {
+  $('.botao, .alerta').fadeIn(500);
+  $('.canvas').fadeOut(500);
+})
+
+var imobilidade = false;
+
+$('.imobilidade').click(function () {
+  if (imobilidade) {
+    $('.alert').not('.conclusao .alert').fadeOut(500);
+    $('.conteudo').fadeIn(500);
+    $('.conclusao').fadeIn(500);
+  }
+  else {
+    $('.alerta').fadeOut(500);
+    $('.canvas').fadeIn(500);
+    imobilidade = true;
+  }
+})
 
 $('.btn').click(function () {
   var target = $(this).data('target');

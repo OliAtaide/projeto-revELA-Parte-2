@@ -54,3 +54,7 @@ span, .btn{
 .bi-arrow-return-right, .bi-arrow-return-left{
   font-size: 2em;
 }
+
+.alert{
+  background-color: #FDFFAF;
+}

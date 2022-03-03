@@ -58,3 +58,7 @@ span, .btn{
 .alert{
   background-color: #FDFFAF;
 }
+
+.btn:disabled{
+  opacity: 1 !important;
+}

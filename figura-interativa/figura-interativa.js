@@ -46,3 +46,15 @@ $('.form-check-input').change(function () {
     $('.alert').removeClass('alert-dark');
   }
 })
+
+// new
+
+console.log($('.col').children('[id!="undefined"]'));
+$('.conteudo').hide();
+
+
+$('.btn').click(function () {
+  var target = $(this).data('target');
+  console.log($("#" + target));
+  $("#" + target).fadeIn(500);
+})

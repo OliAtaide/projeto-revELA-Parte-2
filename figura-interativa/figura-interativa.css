@@ -31,9 +31,9 @@ text {
   border: none;
 }
 
-.bi {
+/* .bi {
   font-size: 2.5em;
-}
+} */
 
 .alert-dark {
   background-color: #B9B9B9 !important;
@@ -43,4 +43,14 @@ text {
 
 text {
   fill: black;
+}
+
+/* new */
+
+span, .btn{
+  font-size: 20px;
+}
+
+.bi-arrow-return-right, .bi-arrow-return-left{
+  font-size: 2em;
 }

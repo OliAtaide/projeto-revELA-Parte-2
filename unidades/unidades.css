@@ -32,3 +32,18 @@
     fill: #838383;
     stroke: white;
 }
+
+.conteudo{
+    height: calc(100vh - 200px);
+    overflow: auto;
+    position: fixed;
+    z-index: 0;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+
+

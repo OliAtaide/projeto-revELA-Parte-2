@@ -82,7 +82,7 @@ $('.font-plus').click(function () {
 
 $('.font-minus').click(function () {
     if (font_range > 0) {
-        aumentarImagem();
+        diminuirImagem();
         diminuirFonte();
         font_range--;
     }

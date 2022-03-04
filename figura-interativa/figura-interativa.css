@@ -62,3 +62,12 @@ span, .btn{
 .btn:disabled{
   opacity: 1 !important;
 }
+
+.img-dark {
+  filter: grayscale(100%) brightness(200%);
+}
+
+.arrows2{
+  margin-top: -12em;
+  margin-bottom: -2em;
+}

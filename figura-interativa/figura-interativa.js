@@ -33,12 +33,14 @@ $('.font-minus').click(function () {
 $('.form-check-input').change(function () {
   if ($(this).is(':checked')) {
     $('body').css('background-color', '#000');
-    $('h3, span').addClass('text-white');
+    $('h3, span, i').addClass('text-white');
+    $('img').addClass('img-dark');
     $('.alert').addClass('alert-dark');
   }
   else {
     $('body').css('background-color', '#fff');
-    $('h3, span').removeClass('text-white');
+    $('h3, span, i').removeClass('text-white');
+    $('img').removeClass('img-dark');
     $('.alert').removeClass('alert-dark');
   }
 })

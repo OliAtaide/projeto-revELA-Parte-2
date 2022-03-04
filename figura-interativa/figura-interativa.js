@@ -12,21 +12,36 @@ $('text').click(function () {
 var min_width = $('svg').width();
 var max_width = min_width * 1.5;
 
+var font_range = 0;
+var text = ['.imobilidade', '.botao i', 'h3', 'button i', 'span i', 'span', '.alert'];
+
+function aumentarFonte() {
+  text.forEach(t => {
+      var font_size = parseInt($(t).css('font-size'));
+      font_size++;
+      $(t).css('font-size', font_size + 'px');
+  });
+}
+
+function diminuirFonte() {
+  text.forEach(t => {
+      var font_size = parseInt($(t).css('font-size'));
+      font_size--;
+      $(t).css('font-size', font_size + 'px');
+  });
+}
+
 $('.font-plus').click(function () {
-  var font_size = parseInt($('span').css('font-size'));
-  console.log(font_size);
-  if (font_size < 30) {
-    font_size = font_size + 1;
-    $('span').css('font-size', font_size + 'px');
+  if (font_range < 5) {
+      aumentarFonte();
+      font_range++;
   }
 })
 
 $('.font-minus').click(function () {
-  var font_size = parseInt($('span').css('font-size'));
-  console.log(font_size);
-  if (font_size > 20) {
-    font_size = font_size - 1;
-    $('span').css('font-size', font_size + 'px');
+  if (font_range > 0) {
+      diminuirFonte();
+      font_range--;
   }
 })
 
@@ -61,7 +76,7 @@ $('.imobilidade').click(function () {
     $('.alert').not('.conclusao .alert').fadeOut(500);
     $('.conteudo').fadeIn(500);
     $('.conclusao').fadeIn(500);
-    $('button').prop('disabled', true);
+    $('button').not('.font-plus, .font-minus, .form-check-input').prop('disabled', true);
   }
   else {
     $('.alerta').fadeOut(500);

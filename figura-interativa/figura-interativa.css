@@ -16,9 +16,8 @@
   font-size: 30px;
 }
 
-text {
-  cursor: pointer;
-  font-size: 20px;
+.botao i{
+  font-size: 2em;
 }
 
 .form-check-input {
@@ -31,28 +30,14 @@ text {
   border: none;
 }
 
-/* .bi {
-  font-size: 2.5em;
-} */
-
 .alert-dark {
   background-color: #B9B9B9 !important;
   border: 2px solid white !important;
   color: black !important;
 }
 
-text {
-  fill: black;
-}
-
-/* new */
-
-span, .btn{
+span, canvas .btn{
   font-size: 20px;
-}
-
-.bi-arrow-return-right, .bi-arrow-return-left{
-  font-size: 2em;
 }
 
 .alert{

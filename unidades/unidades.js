@@ -1,18 +1,37 @@
-$("[id$='conteudo']").hide();
-
 var botoes = $("[id^='botao']");
 
 botoes.css('cursor', 'pointer');
 
-botoes.mouseenter(function () {
+$('.content').hide();
+$('#voltar').hide();
+
+botoes.click(function () {
     var cls = $(this).attr('class');
-    $('#' + cls + '-conteudo').fadeIn(200);
+    console.log(cls);
+    console.log($('#' + cls))
+    $('.main').fadeOut(200);
+    $('#voltar').fadeIn(200);
+    $('#' + cls).fadeIn(200);
 })
 
-botoes.mouseleave(function () {
+$('#voltar').click(function () {
     var cls = $(this).attr('class');
-    $('#' + cls + '-conteudo').fadeOut(200);
+    console.log(cls);
+    console.log($('#' + cls))
+    $('.main').fadeIn(200);
+    $('#voltar').fadeOut(200);
+    $('.content').fadeOut(200);
 })
+
+// botoes.mouseenter(function () {
+//     var cls = $(this).attr('class');
+//     $('#' + cls + '-conteudo').fadeIn(200);
+// })
+
+// botoes.mouseleave(function () {
+//     var cls = $(this).attr('class');
+//     $('#' + cls + '-conteudo').fadeOut(200);
+// })
 
 $('.form-check-input').change(function () {
     if ($(this).is(':checked')) {
@@ -24,6 +43,7 @@ $('.form-check-input').change(function () {
         $('.navbar').removeClass('navbar-dark');
         $('#titulo').addClass('titulo-dark');
         botoes.find('rect').addClass('botao-dark');
+        $('.label').find('rect').addClass('botao-dark');
         $('#fase rect').addClass('botao-dark');
     }
     else {

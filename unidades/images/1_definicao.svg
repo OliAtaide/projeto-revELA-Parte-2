@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="definicao" class="content img-fluid" width="453" height="62" version="1.1" viewBox="0 0 119.86 16.404"
+    xmlns="http://www.w3.org/2000/svg">
+    <g transform="translate(-45.282 -140.57)">
+        <g transform="matrix(.26458 0 0 .26458 -302.91 112.53)">
+            <g transform="translate(-20,-211)">
+                <rect x="1508.5" y="317.5" width="280" height="61" rx="9.5" fill="#fff" stroke="#000"/>
+                <text fill="#000000" font-family="Roboto" font-size="18px" letter-spacing="0em" style="white-space:pre" xml:space="preserve">
+                    <tspan x="1523" y="343.65201">Degeneração de neurônios </tspan>
+                    <tspan x="1523" y="364.65201">motores superiores e inferiores</tspan>
+                </text>
+                <path d="m1468 349.5h40v-3h-40z"/>
+            </g>
+            <g transform="translate(-20,-211)">
+                <rect x="1336" y="320" width="132" height="56" rx="10" fill="#96d2e7"/>
+                <text fill="#000000" font-family="Roboto" font-size="22px" letter-spacing="0em" style="white-space:pre" xml:space="preserve">
+                    <tspan x="1356.08" y="355.51999">Definição</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

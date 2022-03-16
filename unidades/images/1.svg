@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="905"
+   height="470"
+   viewBox="0 0 905 470"
+   fill="none"
+   version="1.1"
+   id="svg234"
+   sodipodi:docname="1.svg"
+   inkscape:version="1.1.2 (1:1.1+202202050950+0a00cf5339)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs238" />
+  <sodipodi:namedview
+     id="namedview236"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="0.66717908"
+     inkscape:cx="463.89344"
+     inkscape:cy="185.10772"
+     inkscape:window-width="1366"
+     inkscape:window-height="703"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg234"
+     width="702px" />
+  <g
+     id="fase"
+     transform="translate(-610,-221)">
+    <rect
+       x="610"
+       y="221"
+       width="397"
+       height="134"
+       rx="10"
+       fill="#ff8d3e"
+       id="rect24" />
+    <text
+       fill="#000000"
+       xml:space="preserve"
+       style="white-space:pre"
+       font-family="Roboto"
+       font-size="22px"
+       letter-spacing="0em"
+       id="text34"><tspan
+         x="632.25299"
+         y="256.51999"
+         id="tspan26">Fase em que o paciente se encontra </tspan><tspan
+         x="631.02802"
+         y="282.51999"
+         id="tspan28">para promover adaptações e manter </tspan><tspan
+         x="641.341"
+         y="308.51999"
+         id="tspan30">as condutas sempre atualizadas e </tspan><tspan
+         x="644.56299"
+         y="334.51999"
+         id="tspan32">adequadas à condição da pessoa</tspan></text>
+  </g>
+  <g
+     id="fisiopatologia"
+     transform="translate(-610,-221)">
+    <rect
+       x="1336"
+       y="476"
+       width="179"
+       height="56"
+       rx="10"
+       fill="#96d2e7"
+       id="rect10" />
+    <text
+       fill="#000000"
+       xml:space="preserve"
+       style="white-space:pre"
+       font-family="Roboto"
+       font-size="22px"
+       letter-spacing="0em"
+       id="text14"><tspan
+         x="1356.41"
+         y="511.51999"
+         id="tspan12">Fisiopatologia</tspan></text>
+  </g>
+  <g
+     id="definicao"
+     transform="translate(-610,-221)">
+    <rect
+       x="1336"
+       y="320"
+       width="132"
+       height="56"
+       rx="10"
+       fill="#96d2e7"
+       id="rect174" />
+    <text
+       fill="#000000"
+       xml:space="preserve"
+       style="white-space:pre"
+       font-family="Roboto"
+       font-size="22px"
+       letter-spacing="0em"
+       id="text178"><tspan
+         x="1356.08"
+         y="355.51999"
+         id="tspan176">Definição</tspan></text>
+  </g>
+  <g
+     id="importancia"
+     transform="translate(-610,-221)">
+    <rect
+       x="701"
+       y="405"
+       width="306"
+       height="82"
+       rx="10"
+       fill="#96d2e7"
+       id="rect16" />
+    <text
+       fill="#000000"
+       xml:space="preserve"
+       style="white-space:pre"
+       font-family="Roboto"
+       font-size="22px"
+       letter-spacing="0em"
+       id="text22"><tspan
+         x="722.612"
+         y="440.51999"
+         id="tspan18">Importância da atuação da </tspan><tspan
+         x="743.45203"
+         y="466.51999"
+         id="tspan20">equipe multidisciplinar</tspan></text>
+  </g>
+  <g
+     id="sintomas"
+     transform="translate(-610,-221)">
+    <rect
+       x="1336"
+       y="632"
+       width="133"
+       height="56"
+       rx="10"
+       fill="#96d2e7"
+       id="rect168" />
+    <text
+       fill="#000000"
+       xml:space="preserve"
+       style="white-space:pre"
+       font-family="Roboto"
+       font-size="22px"
+       letter-spacing="0em"
+       id="text172"><tspan
+         x="1356.14"
+         y="667.52002"
+         id="tspan170">Sintomas</tspan></text>
+  </g>
+  <g
+     id="classificacao"
+     transform="translate(-610,-221)">
+    <rect
+       x="835"
+       y="635"
+       width="172"
+       height="56"
+       rx="10"
+       fill="#96d2e7"
+       id="rect36" />
+    <text
+       fill="#000000"
+       xml:space="preserve"
+       style="white-space:pre"
+       font-family="Roboto"
+       font-size="22px"
+       letter-spacing="0em"
+       id="text40"><tspan
+         x="855.27899"
+         y="670.52002"
+         id="tspan38">Classificação</tspan></text>
+  </g>
+  <g
+     id="titulo"
+     transform="translate(-610,-221)">
+    <path
+       d="m 1296,505.5 h 40 v -3 h -40 z"
+       fill="#000000"
+       id="path166" />
+    <path
+       d="m 1047,502.5 h -15 v 3 h 15 z m -18.5,-3.5 v -48 h -3 v 48 z m -6.5,-54.5 h -15 v 3 h 15 z m 6.5,6.5 c 0,-3.59 -2.91,-6.5 -6.5,-6.5 v 3 c 1.93,0 3.5,1.567 3.5,3.5 z m 3.5,51.5 c -1.93,0 -3.5,-1.567 -3.5,-3.5 h -3 c 0,3.59 2.91,6.5 6.5,6.5 z"
+       fill="#000000"
+       id="path180" />
+    <path
+       d="m 1047,502.5 h -15 v 3 h 15 z M 1028.5,499 V 293 h -3 V 499 Z M 1022,286.5 h -15 v 3 h 15 z m 6.5,6.5 c 0,-3.59 -2.91,-6.5 -6.5,-6.5 v 3 c 1.93,0 3.5,1.567 3.5,3.5 z m 3.5,209.5 c -1.93,0 -3.5,-1.567 -3.5,-3.5 h -3 c 0,3.59 2.91,6.5 6.5,6.5 z"
+       fill="#000000"
+       id="path182" />
+    <path
+       d="m 1047,502.5 h -15 v 3 h 15 z m -21.5,6.5 v 149 h 3 V 509 Z m -3.5,152.5 h -15 v 3 h 15 z m 3.5,-3.5 c 0,1.933 -1.57,3.5 -3.5,3.5 v 3 c 3.59,0 6.5,-2.91 6.5,-6.5 z m 6.5,-155.5 c -3.59,0 -6.5,2.91 -6.5,6.5 h 3 c 0,-1.933 1.57,-3.5 3.5,-3.5 z"
+       fill="#000000"
+       id="path184" />
+    <path
+       d="m 1296,505.5 h 15 v -3 h -15 z m 21.5,-6.5 V 353 h -3 v 146 z m 3.5,-149.5 h 15 v -3 h -15 z m -3.5,3.5 c 0,-1.933 1.57,-3.5 3.5,-3.5 v -3 c -3.59,0 -6.5,2.91 -6.5,6.5 z m -6.5,152.5 c 3.59,0 6.5,-2.91 6.5,-6.5 h -3 c 0,1.933 -1.57,3.5 -3.5,3.5 z"
+       fill="#000000"
+       id="path210" />
+    <path
+       d="m 1296,505.5 h 15 v -3 h -15 z m 18.5,3.5 v 146 h 3 V 509 Z m 6.5,152.5 h 15 v -3 h -15 z m -6.5,-6.5 c 0,3.59 2.91,6.5 6.5,6.5 v -3 c -1.93,0 -3.5,-1.567 -3.5,-3.5 z M 1311,505.5 c 1.93,0 3.5,1.567 3.5,3.5 h 3 c 0,-3.59 -2.91,-6.5 -6.5,-6.5 z"
+       fill="#000000"
+       id="path212" />
+    <path
+       d="m 1027,505.5 h 40 v -3 h -40 z"
+       fill="#000000"
+       id="path214" />
+    <rect
+       x="1047"
+       y="447"
+       width="249"
+       height="114"
+       rx="10"
+       fill="#5a729a"
+       id="rect224" />
+    <text
+       fill="#ffffff"
+       xml:space="preserve"
+       style="white-space:pre"
+       font-family="Roboto"
+       font-size="24px"
+       font-weight="500"
+       letter-spacing="0em"
+       id="text232"><tspan
+         x="1079.14"
+         y="484.203"
+         id="tspan226">Abordagem geral </tspan><tspan
+         x="1098"
+         y="512.203"
+         id="tspan228">sobre a ELA e </tspan><tspan
+         x="1067.12"
+         y="540.203"
+         id="tspan230">Fisioterapia Motora</tspan></text>
+  </g>
+</svg>

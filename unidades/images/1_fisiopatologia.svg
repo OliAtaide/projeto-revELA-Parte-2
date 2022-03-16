@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="fisiopatologia" class="content img-fluid" width="403" height="112" version="1.1" viewBox="0 0 106.63 29.633"
+    xmlns="http://www.w3.org/2000/svg">
+    <g transform="translate(-51.697 -133.7)">
+        <g transform="matrix(.26458 0 0 .26458 -296.49 70.995)">
+            <g transform="translate(-20,-211)">
+                <rect x="1336" y="476" width="179" height="56" rx="10" fill="#96d2e7"/>
+                <text fill="#000000" font-family="Roboto" font-size="22px" letter-spacing="0em" style="white-space:pre" xml:space="preserve">
+                    <tspan x="1356.41" y="511.51999">Fisiopatologia</tspan>
+                </text>
+            </g>
+            <g transform="translate(-20,-211)">
+                <rect x="1555.5" y="519.5" width="183" height="40" rx="9.5" fill="#fff" stroke="#000"/>
+                <text fill="#000000" font-family="Roboto" font-size="18px" letter-spacing="0em" style="white-space:pre" xml:space="preserve">
+                    <tspan x="1570" y="545.65198">Fatores ambientais</tspan>
+                </text>
+                <rect x="1555.5" y="448.5" width="173" height="40" rx="9.5" fill="#fff" stroke="#000"/>
+                <text fill="#000000" font-family="Roboto" font-size="18px" letter-spacing="0em" style="white-space:pre" xml:space="preserve">
+                    <tspan x="1570" y="474.65201">Fatores genéticos</tspan>
+                </text>
+                <path d="m1515 505.5h15v-3h-15zm21.5-6.5v-25.5h-3v25.5zm3.5-29h15v-3h-15zm-3.5 3.5c0-1.933 1.57-3.5 3.5-3.5v-3c-3.59 0-6.5 2.91-6.5 6.5zm-6.5 32c3.59 0 6.5-2.91 6.5-6.5h-3c0 1.933-1.57 3.5-3.5 3.5z"/>
+                <path d="m1515 505.5h15v-3h-15zm18.5 3.5v25.5h3v-25.5zm6.5 32h15v-3h-15zm-6.5-6.5c0 3.59 2.91 6.5 6.5 6.5v-3c-1.93 0-3.5-1.567-3.5-3.5zm-3.5-29c1.93 0 3.5 1.567 3.5 3.5h3c0-3.59-2.91-6.5-6.5-6.5z"/>
+            </g>
+        </g>
+    </g>
+</svg>

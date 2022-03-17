@@ -19,20 +19,20 @@
     border: none;
 }
 
-.botao-dark{
+.botao-dark {
     fill: #B9B9B9;
 }
 
-.titulo-dark{
+.titulo-dark {
     fill: #fff;
 }
 
-.titulo-dark rect{
+.titulo-dark rect {
     fill: #838383;
     stroke: white;
 }
 
-.conteudo{
+.conteudo {
     height: calc(100vh - 200px);
     overflow: auto;
     position: fixed;
@@ -41,8 +41,3 @@
     bottom: 0;
     left: 0;
 }
-
-
-
-
-

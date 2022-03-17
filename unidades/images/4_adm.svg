@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="588" height="166" version="1.1" viewBox="0 0 155.57 43.921"
+    xmlns="http://www.w3.org/2000/svg">
+    <g transform="translate(-220.33 -299.17)">
+        <g transform="matrix(.26458 0 0 .26458 140.55 113.83)">
+            <rect x="592.5" y="758.5" width="297" height="51" rx="10" fill="#96d2e7"/>
+            <text x="6.5" y="-51.5" fill="#000000" font-family="Roboto" font-size="18px" letter-spacing="0em" style="white-space:pre" xml:space="preserve">
+                <tspan x="612.539" y="790.15198">Amplitude de Movimento (ADM) </tspan>
+            </text>
+        </g>
+        <g transform="matrix(.26458 0 0 .26458 140.55 113.83)">
+            <rect x="323" y="809" width="229" height="57" rx="9.5" fill="#fff" stroke="#000"/>
+            <text x="6.5" y="-51.5" fill="#000000" font-family="Roboto" font-size="16px" letter-spacing="0em" style="white-space:pre" xml:space="preserve">
+                <tspan x="337.5" y="833.46899">Para cada articulação </tspan>
+                <tspan x="337.5" y="852.46899">existe uma ADM fisiológica</tspan>
+            </text>
+            <rect x="438" y="755" width="114" height="38" rx="9.5" fill="#fff" stroke="#000"/>
+            <text x="6.5" y="-51.5" fill="#000000" font-family="Roboto" font-size="16px" letter-spacing="0em" style="white-space:pre" xml:space="preserve">
+                <tspan x="452.5" y="779.46899">Goniômetro</tspan>
+            </text>
+            <rect x="302" y="701" width="250" height="38" rx="9.5" fill="#fff" stroke="#000"/>
+            <text x="6.5" y="-51.5" fill="#000000" font-family="Roboto" font-size="16px" letter-spacing="0em" style="white-space:pre" xml:space="preserve">
+                <tspan x="316.5" y="725.46899">Mobilização ativa e/ou passiva</tspan>
+            </text>
+            <g>
+                <path d="m592.5 782.5h-15v3h15zm-25-10h-15v3h15zm6.5 6.5c0-3.59-2.91-6.5-6.5-6.5v3c1.933 0 3.5 1.567 3.5 3.5zm3.5 3.5c-1.933 0-3.5-1.567-3.5-3.5h-3c0 3.59 2.91 6.5 6.5 6.5z"/>
+                <path d="m574 764v-24h-3v24zm0-24c0-11.874-9.626-21.5-21.5-21.5v3c10.217 0 18.5 8.283 18.5 18.5zm18.5 42.5c-10.217 0-18.5-8.283-18.5-18.5h-3c0 11.874 9.626 21.5 21.5 21.5z"/>
+                <path d="m571 804v13.5h3v-13.5zm0 13.5c0 10.217-8.283 18.5-18.5 18.5v3c11.874 0 21.5-9.626 21.5-21.5zm21.5-35c-11.874 0-21.5 9.626-21.5 21.5h3c0-10.217 8.283-18.5 18.5-18.5z"/>
+            </g>
+        </g>
+    </g>
+</svg>

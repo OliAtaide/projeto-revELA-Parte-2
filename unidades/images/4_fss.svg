@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="950" height="240" version="1.1" viewBox="0 0 251.35 63.5"
+    xmlns="http://www.w3.org/2000/svg">
+    <g transform="translate(-105.32 -238.43)">
+        <g transform="matrix(.26458 0 0 .26458 -222.37 -15.965)">
+            <rect x="1238.5" y="1024.5" width="264" height="51" rx="10" fill="#96d2e7"/>
+            <text x="6.5" y="-51.5" fill="#000000" font-family="Roboto" font-size="18px" letter-spacing="0em" style="white-space:pre" xml:space="preserve">
+                <tspan x="1258.79" y="1056.15">Fatigue Severity Scale (FSS) </tspan>
+            </text>
+        </g>
+        <g transform="matrix(.26458 0 0 .26458 -222.37 -15.965)">
+            <rect x="1543" y="1031" width="77" height="38" rx="9.5" fill="#fff" stroke="#000"/>
+            <text x="6.5" y="-51.5" fill="#000000" font-family="Roboto" font-size="16px" letter-spacing="0em" style="white-space:pre" xml:space="preserve">
+                <tspan x="1557.5" y="1055.47">Fadiga</tspan>
+            </text>
+            <rect x="1661" y="962" width="165" height="38" rx="9.5" fill="#fff" stroke="#000"/>
+            <text x="6.5" y="-51.5" fill="#000000" font-family="Roboto" font-size="16px" letter-spacing="0em" style="white-space:pre" xml:space="preserve">
+                <tspan x="1675.5" y="986.46997">4 últimas semanas </tspan>
+            </text>
+            <rect x="1661" y="1100" width="122" height="38" rx="9.5" fill="#fff" stroke="#000"/>
+            <text x="6.5" y="-51.5" fill="#000000" font-family="Roboto" font-size="16px" letter-spacing="0em" style="white-space:pre" xml:space="preserve">
+                <tspan x="1675.5" y="1124.47">9 afirmações</tspan>
+            </text>
+            <rect x="1824" y="1036" width="282" height="57" rx="9.5" fill="#fff" stroke="#000"/>
+            <text x="6.5" y="-51.5" fill="#000000" font-family="Roboto" font-size="16px" letter-spacing="0em" style="white-space:pre" xml:space="preserve">
+                <tspan x="1838.5" y="1060.47">Número de 1 (discorda totalmente) </tspan>
+                <tspan x="1838.5" y="1079.47">a 7 (concorda totalmente)</tspan>
+            </text>
+            <rect x="1824" y="1109" width="364" height="38" rx="9.5" fill="#fff" stroke="#000"/>
+            <text x="6.5" y="-51.5" fill="#000000" font-family="Roboto" font-size="16px" letter-spacing="0em" style="white-space:pre" xml:space="preserve">
+                <tspan x="1838.5" y="1133.47">Número total de pontos poderá variar de 9 a 63</tspan>
+            </text>
+            <rect x="1824" y="1163" width="147" height="38" rx="9.5" fill="#fff" stroke="#000"/>
+            <text x="6.5" y="-51.5" fill="#000000" font-family="Roboto" font-size="16px" letter-spacing="0em" style="white-space:pre" xml:space="preserve">
+                <tspan x="1838.5" y="1187.47">= ou &gt; do que 28 </tspan>
+            </text>
+            <rect x="2012" y="1163" width="166" height="38" rx="9.5" fill="#fff" stroke="#000"/>
+            <text x="6.5" y="-51.5" fill="#000000" font-family="Roboto" font-size="16px" letter-spacing="0em" style="white-space:pre" xml:space="preserve">
+                <tspan x="2026.5" y="1187.47">Presença de fadiga</tspan>
+            </text>
+            <g>
+                <path d="m1642 1030v-29h-3v29zm0-29c0-10.22 8.28-18.5 18.5-18.5v-3c-11.87 0-21.5 9.63-21.5 21.5zm-21.5 50.5c11.87 0 21.5-9.63 21.5-21.5h-3c0 10.22-8.28 18.5-18.5 18.5z"/>
+                <path d="m1639 1070v29h3v-29zm0 29c0 11.87 9.63 21.5 21.5 21.5v-3c-10.22 0-18.5-8.28-18.5-18.5zm-18.5-47.5c10.22 0 18.5 8.28 18.5 18.5h3c0-11.87-9.63-21.5-21.5-21.5z"/>
+                <path d="m1805 1099v-14.5h-3v14.5zm0-14.5c0-10.22 8.28-18.5 18.5-18.5v-3c-11.87 0-21.5 9.63-21.5 21.5zm-21.5 36c11.87 0 21.5-9.63 21.5-21.5h-3c0 10.22-8.28 18.5-18.5 18.5z"/>
+                <path d="m1783.5 1120.5h15.5v-3h-15.5zm24.5 9h15.5v-3h-15.5zm-6-6c0 3.31 2.69 6 6 6v-3c-1.66 0-3-1.34-3-3zm-3-3c1.66 0 3 1.34 3 3h3c0-3.31-2.69-6-6-6z"/>
+                <path d="m1802 1139v23h3v-23zm0 23c0 11.87 9.63 21.5 21.5 21.5v-3c-10.22 0-18.5-8.28-18.5-18.5zm-18.5-41.5c10.22 0 18.5 8.28 18.5 18.5h3c0-11.87-9.63-21.5-21.5-21.5z"/>
+                <path d="m1971.5 1183.5h40v-3h-40z"/>
+                <path d="m1502.5 1051.5h40v-3h-40z"/>
+            </g>
+        </g>
+    </g>
+</svg>

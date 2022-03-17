@@ -1,47 +1,33 @@
-$('g').not('#linha').hide();
-$('#imobilidade').hide();
-
-$('text').click(function () {
-  var target = $('#' + $(this).data('target'));
-  target.show();
-  if (target.data('target') == 'imobilidade') {
-    $('#imobilidade').show();
-  }
-})
-
-var min_width = $('svg').width();
-var max_width = min_width * 1.5;
-
 var font_range = 0;
 var text = ['.imobilidade', '.botao i', 'h3', 'button i', 'span i', 'span', '.alert'];
 
 function aumentarFonte() {
   text.forEach(t => {
-      var font_size = parseInt($(t).css('font-size'));
-      font_size++;
-      $(t).css('font-size', font_size + 'px');
+    var font_size = parseInt($(t).css('font-size'));
+    font_size++;
+    $(t).css('font-size', font_size + 'px');
   });
 }
 
 function diminuirFonte() {
   text.forEach(t => {
-      var font_size = parseInt($(t).css('font-size'));
-      font_size--;
-      $(t).css('font-size', font_size + 'px');
+    var font_size = parseInt($(t).css('font-size'));
+    font_size--;
+    $(t).css('font-size', font_size + 'px');
   });
 }
 
 $('.font-plus').click(function () {
   if (font_range < 5) {
-      aumentarFonte();
-      font_range++;
+    aumentarFonte();
+    font_range++;
   }
 })
 
 $('.font-minus').click(function () {
   if (font_range > 0) {
-      diminuirFonte();
-      font_range--;
+    diminuirFonte();
+    font_range--;
   }
 })
 
@@ -62,21 +48,25 @@ $('.form-check-input').change(function () {
 
 // new
 
-$('.conteudo, .botao, .alerta, .canvas, .conclusao').hide();
+$('.conteudo, .alerta, .canvas, .conclusao').hide();
 
-$('.titulo').click(function () {
-  $('.botao, .alerta').fadeIn(500);
-  $('.canvas').fadeOut(500);
-})
+// $('.titulo').click(function () {
+//   $('.botao, .alerta').fadeIn(500);
+//   $('.canvas').fadeOut(500);
+// })
 
 var imobilidade = false;
 
+function conclusao() {
+  $('.alert').not('.conclusao .alert').fadeOut(500);
+  $('.conteudo').fadeIn(500);
+  $('.conclusao').fadeIn(500);
+  $('button').not('.font-plus, .font-minus, .form-check-input').prop('disabled', true);
+}
+
 $('.imobilidade').click(function () {
   if (imobilidade) {
-    $('.alert').not('.conclusao .alert').fadeOut(500);
-    $('.conteudo').fadeIn(500);
-    $('.conclusao').fadeIn(500);
-    $('button').not('.font-plus, .font-minus, .form-check-input').prop('disabled', true);
+    conclusao();
   }
   else {
     $('.alerta').fadeOut(500);
@@ -89,4 +79,7 @@ $('.btn').click(function () {
   var target = $(this).data('target');
   console.log($("#" + target));
   $("#" + target).fadeIn(500);
+  if ($('.conteudo:visible').length == 5) {
+    conclusao();
+  }
 })

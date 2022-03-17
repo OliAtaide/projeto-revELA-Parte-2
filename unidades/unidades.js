@@ -9,29 +9,20 @@ botoes.click(function () {
     var cls = $(this).attr('class');
     console.log(cls);
     console.log($('#' + cls))
-    $('.main').fadeOut(200);
-    $('#voltar').fadeIn(200);
-    $('#' + cls).fadeIn(200);
+    $('.main').fadeOut(200, function () {
+        $('#voltar, #' + cls).fadeIn(200);
+    });
+
 })
 
 $('#voltar').click(function () {
     var cls = $(this).attr('class');
     console.log(cls);
     console.log($('#' + cls))
-    $('.main').fadeIn(200);
-    $('#voltar').fadeOut(200);
-    $('.content').fadeOut(200);
+    $('.content, #voltar').fadeOut(200, function () {
+        $('.main').fadeIn(200);
+    });
 })
-
-// botoes.mouseenter(function () {
-//     var cls = $(this).attr('class');
-//     $('#' + cls + '-conteudo').fadeIn(200);
-// })
-
-// botoes.mouseleave(function () {
-//     var cls = $(this).attr('class');
-//     $('#' + cls + '-conteudo').fadeOut(200);
-// })
 
 $('.form-check-input').change(function () {
     if ($(this).is(':checked')) {
@@ -45,6 +36,7 @@ $('.form-check-input').change(function () {
         botoes.find('rect').addClass('botao-dark');
         $('.label').find('rect').addClass('botao-dark');
         $('#fase rect').addClass('botao-dark');
+        $('#voltar').addClass('text-white');
     }
     else {
         $('body').css('background-color', 'white');
@@ -56,6 +48,7 @@ $('.form-check-input').change(function () {
         $('#titulo').removeClass('titulo-dark');
         botoes.find('rect').removeClass('botao-dark');
         $('#fase rect').removeClass('botao-dark');
+        $('#voltar').removeClass('text-white');
     }
 })
 
@@ -94,7 +87,7 @@ function diminuirFonte() {
 
 $('.font-plus').click(function () {
     if (font_range < 5) {
-        aumentarImagem();
+        // aumentarImagem();
         aumentarFonte();
         font_range++;
     }
@@ -102,7 +95,7 @@ $('.font-plus').click(function () {
 
 $('.font-minus').click(function () {
     if (font_range > 0) {
-        diminuirImagem();
+        // diminuirImagem();
         diminuirFonte();
         font_range--;
     }

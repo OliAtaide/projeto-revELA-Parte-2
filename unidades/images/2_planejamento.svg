@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="879" height="653" version="1.1" viewBox="0 0 232.57 172.77"
+    xmlns="http://www.w3.org/2000/svg">
+    <g transform="translate(14.549 -88.104)">
+        <g id="botao-planejamento" transform="matrix(.26458 0 0 .26458 -442.78 -54.242)">
+            <rect x="1618.5" y="696" width="291" height="56" rx="10" fill="#96d2e7"/>
+            <text x="-47.5" y="-154" fill="#000000" font-family="Roboto" font-size="22px" letter-spacing="0em" style="white-space:pre" xml:space="preserve">
+                <tspan x="1638.51" y="731.52002">Planejamento terapêutico</tspan>
+            </text>
+        </g>
+        <g id="botao-planejamento-conteudo" transform="matrix(.26458 0 0 .26458 -442.78 -54.242)">
+            <rect x="1950" y="538.5" width="150" height="40" rx="9.5" fill="#fff" stroke="#000"/>
+            <text x="-47.5" y="-154" fill="#000000" font-family="Roboto" font-size="18px" letter-spacing="0em" style="white-space:pre" xml:space="preserve">
+                <tspan x="1964.5" y="564.65198">Individualizado</tspan>
+            </text>
+            <rect x="1950" y="885.5" width="90" height="40" rx="9.5" fill="#fff" stroke="#000"/>
+            <text x="-47.5" y="-154" fill="#000000" font-family="Roboto" font-size="18px" letter-spacing="0em" style="white-space:pre" xml:space="preserve">
+                <tspan x="1964.5" y="911.65002">Fatores</tspan>
+            </text>
+            <rect x="2081" y="619.5" width="237" height="40" rx="9.5" fill="#fff" stroke="#000"/>
+            <text x="-47.5" y="-154" fill="#000000" font-family="Roboto" font-size="18px" letter-spacing="0em" style="white-space:pre" xml:space="preserve">
+                <tspan x="2095.5" y="645.65198">Velocidade de progressão</tspan>
+            </text>
+            <rect x="2081" y="690.5" width="299" height="40" rx="9.5" fill="#fff" stroke="#000"/>
+            <text x="-47.5" y="-154" fill="#000000" font-family="Roboto" font-size="18px" letter-spacing="0em" style="white-space:pre" xml:space="preserve">
+                <tspan x="2095.5" y="716.65198">Primeiros sintomas apresentados</tspan>
+            </text>
+            <rect x="2081" y="761.5" width="357" height="82" rx="9.5" fill="#fff" stroke="#000"/>
+            <text x="-47.5" y="-154" fill="#000000" font-family="Roboto" font-size="18px" letter-spacing="0em" style="white-space:pre" xml:space="preserve">
+                <tspan x="2095.5" y="787.65198">Quais tipos de atividade a pessoa </tspan>
+                <tspan x="2095.5" y="808.65198">costuma fazer no seu dia a dia e em qual </tspan>
+                <tspan x="2095.5" y="829.65198">posicionamento costuma realizá-las</tspan>
+            </text>
+            <rect x="2081" y="1016.5" width="344" height="82" rx="9.5" fill="#fff" stroke="#000"/>
+            <text x="-47.5" y="-154" fill="#000000" font-family="Roboto" font-size="18px" letter-spacing="0em" style="white-space:pre" xml:space="preserve">
+                <tspan x="2095.5" y="1042.65">Quais estratégias adotar para amenizar </tspan>
+                <tspan x="2095.5" y="1063.65">isso, qualidade do sono e investigação </tspan>
+                <tspan x="2095.5" y="1084.65">do que pode estar interferindo</tspan>
+            </text>
+            <rect x="2081" y="1129.5" width="314" height="61" rx="9.5" fill="#fff" stroke="#000"/>
+            <text x="-47.5" y="-154" fill="#000000" font-family="Roboto" font-size="18px" letter-spacing="0em" style="white-space:pre" xml:space="preserve">
+                <tspan x="2095.5" y="1155.65">Quantidade e qualidade do repouso </tspan>
+                <tspan x="2095.5" y="1176.65">em diferentes turnos do dia</tspan>
+            </text>
+            <rect x="2081" y="945.5" width="416" height="40" rx="9.5" fill="#fff" stroke="#000"/>
+            <text x="-47.5" y="-154" fill="#000000" font-family="Roboto" font-size="18px" letter-spacing="0em" style="white-space:pre" xml:space="preserve">
+                <tspan x="2095.5" y="971.65002">Histórico de quedas frequentes, cãibras e fadiga</tspan>
+            </text>
+            <rect x="2081" y="874.5" width="253" height="40" rx="9.5" fill="#fff" stroke="#000"/>
+            <text x="-47.5" y="-154" fill="#000000" font-family="Roboto" font-size="18px" letter-spacing="0em" style="white-space:pre" xml:space="preserve">
+                <tspan x="2095.5" y="900.65002">Necessidade de assistência</tspan>
+            </text>
+            <g>
+                <path d="m1909.5 725.5h10v-3h-10zm21.5-11.5v-145.5h-3v145.5zm8.5-154h10v-3h-10zm-8.5 8.5c0-4.694 3.81-8.5 8.5-8.5v-3c-6.35 0-11.5 5.149-11.5 11.5zm-11.5 157c6.35 0 11.5-5.149 11.5-11.5h-3c0 4.694-3.81 8.5-8.5 8.5z"/>
+                <path d="m1909.5 725.5h10v-3h-10zm18.5 8.5v161.5h3v-161.5zm11.5 173h10v-3h-10zm-11.5-11.5c0 6.35 5.15 11.5 11.5 11.5v-3c-4.69 0-8.5-3.81-8.5-8.5zm-8.5-170c4.69 0 8.5 3.806 8.5 8.5h3c0-6.351-5.15-11.5-11.5-11.5z"/>
+                <path d="m2040.5 907h10v-3h-10zm21.5-11.5v-246h-3v246zm8.5-254.5h10v-3h-10zm-8.5 8.5c0-4.694 3.81-8.5 8.5-8.5v-3c-6.35 0-11.5 5.149-11.5 11.5zm-11.5 257.5c6.35 0 11.5-5.15 11.5-11.5h-3c0 4.69-3.81 8.5-8.5 8.5z"/>
+                <path d="m2040.5 907h10v-3h-10zm21.5-11.5v-175h-3v175zm8.5-183.5h10v-3h-10zm-8.5 8.5c0-4.694 3.81-8.5 8.5-8.5v-3c-6.35 0-11.5 5.149-11.5 11.5zm-11.5 186.5c6.35 0 11.5-5.15 11.5-11.5h-3c0 4.69-3.81 8.5-8.5 8.5z"/>
+                <path d="m2040.5 907h10v-3h-10zm21.5-11.5v-83h-3v83zm8.5-91.5h10v-3h-10zm-8.5 8.5c0-4.694 3.81-8.5 8.5-8.5v-3c-6.35 0-11.5 5.149-11.5 11.5zm-11.5 94.5c6.35 0 11.5-5.15 11.5-11.5h-3c0 4.69-3.81 8.5-8.5 8.5z"/>
+                <path d="m2040.5 907h14.5v-3h-14.5zm25.5-11h14.5v-3h-14.5zm-4 4c0-2.21 1.79-4 4-4v-3c-3.87 0-7 3.13-7 7zm-7 7c3.87 0 7-3.13 7-7h-3c0 2.21-1.79 4-4 4z"/>
+                <path d="m2040.5 907h10v-3h-10zm18.5 8.5v40h3v-40zm11.5 51.5h10v-3h-10zm-11.5-11.5c0 6.35 5.15 11.5 11.5 11.5v-3c-4.69 0-8.5-3.81-8.5-8.5zm-8.5-48.5c4.69 0 8.5 3.81 8.5 8.5h3c0-6.35-5.15-11.5-11.5-11.5z"/>
+                <path d="m2040.5 907h10v-3h-10zm18.5 8.5v132h3v-132zm11.5 143.5h10v-3h-10zm-11.5-11.5c0 6.35 5.15 11.5 11.5 11.5v-3c-4.69 0-8.5-3.81-8.5-8.5zm-8.5-140.5c4.69 0 8.5 3.81 8.5 8.5h3c0-6.35-5.15-11.5-11.5-11.5z"/>
+                <path d="m2040.5 907h10v-3h-10zm18.5 8.5v234.5h3v-234.5zm11.5 246h10v-3h-10zm-11.5-11.5c0 6.35 5.15 11.5 11.5 11.5v-3c-4.69 0-8.5-3.81-8.5-8.5zm-8.5-243c4.69 0 8.5 3.81 8.5 8.5h3c0-6.35-5.15-11.5-11.5-11.5z"/>
+            </g>
+        </g>
+    </g>
+</svg>

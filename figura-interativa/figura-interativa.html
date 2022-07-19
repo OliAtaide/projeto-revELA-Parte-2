@@ -18,170 +18,202 @@
 </head>
 
 <body>
-  <div class="position-relative my-3 d-flex flex-column align-items-center">
-    <div class="ms-auto position-absolute end-0 d-flex align-items-center">
-      <div class="form-check form-switch me-3 ">
-        <input class="form-check-input bg-white" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+  <header>
+    <nav class="header navbar navbar-expand-lg">
+      <div class="container">
+        <span class="text-truncate text-white w-50">
+          <strong>Módulo: </strong>Fisioterapia Motora na ELA
+          <br>
+          <strong>Unidade 1: </strong>Abordagem geral sobre a ELA e Fisioterapia Motora
+          <br>
+          <strong>Conteudistas: </strong> Ledycnarf Januário de Holanda e Luciana Protásio de Melo
+        </span>
+        <ul class="navbar-nav flex-row ms-auto">
+          <li class="nav-item me-2">
+            <div class="form-check form-switch">
+              <input class="form-check-input bg-white" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+            </div>
+          </li>
+          <li class="nav-item d-flex">
+            <button
+              class="font-plus btn btn-sm btn-outline-secondary shadow-none border-end-0 bg-white rounded-end rounded-pill">
+              A+
+            </button>
+            <button class="font-minus btn btn-sm btn-outline-secondary shadow-none bg-white rounded-start rounded-pill">
+              A-
+            </button>
+          </li>
+        </ul>
       </div>
-      <button class="font-plus btn btn-sm btn-outline-secondary border-end-0 bg-white rounded-end rounded-pill">
-        A+
-      </button>
-      <button class="font-minus btn btn-sm btn-outline-secondary bg-white rounded-start rounded-pill">
-        A-
-      </button>
-    </div>
-    <div class="d-flex align-items-center">
-      <button class="btn titulo">
-        <h3 class="text-center fw-bold">FRAQUEZA MUSCULAR</h3>
-      </button>
-    </div>
-    <div class="d-flex justify-content-center mb-3">
-      <audio controls>
-        <source class="" src="mp3/0.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio>
-    </div>
-    <div class="botao">
-      <div class="d-flex mt-3">
-        <i class="bi bi-arrow-return-right"></i>
-        <button class="btn mx-3 fw-bold imobilidade border border-dark">Imobilidade</button>
-        <i class="bi bi-arrow-return-left"></i>
+    </nav>
+    <nav class="subheader navbar navbar-expand navbar-dark">
+      <div class="container">
+        <span class="navbar-nav fw-bold text-center text-uppercase justify-content-center w-100">
+          INFOGRÁFICO INTERATIVO
+        </span>
       </div>
-    </div>
-    <div class="alerta alert border border-dark my-4 w-25 text-center">
-      A fraqueza muscular é causada pelo processo neurodegenerativo da doença. Pode levar à imobilidade no leito.
-    </div>
-    <div class="canvas my-3">
-      <div class="d-flex flex-column align-items-center w-100">
-        <img class="arrows" src="svg/arrows.svg" alt="">
+    </nav>
+  </header>
+  <main>
+    <div class="position-relative my-3 d-flex flex-column align-items-center">
+      <div class="d-flex align-items-center">
+        <button class="btn titulo">
+          <h3 class="text-center fw-bold">FRAQUEZA MUSCULAR</h3>
+        </button>
       </div>
-      <div class="row w-100 py-3">
-        <div class="col px-4">
-          <div class="row text-center">
-            <button type="button" class="btn" data-target="um">
-              <span>Rigidez articular</span>
-            </button>
-          </div>
-          <div id="um" class="conteudo row text-center">
-            <img src="svg/arrow-sm.svg" class="my-3" height="36px" alt="">
-            <span>
-              Dor
-            </span>
-            <div class="alert border border-dark text-center my-3">
-              Isso poderá causar aumento da <strong>rigidez articular</strong> e aumento da predisposição à
-              <strong>dor</strong>.
-            </div>
-          </div>
-        </div>
-        <div class="col px-4">
-          <div class="row">
-            <button type="button" class="btn" data-target="dois">
-              <i class="bi bi-arrow-down"></i>
-              <span>força muscular</span>
-            </button>
-          </div>
-          <div id="dois" class="conteudo row text-center">
-            <img src="svg/arrow-sm.svg" class="my-3" height="36px" alt="">
-            <span>
-              Hipertrofia muscular
-            </span>
-            <img src="svg/arrow-sm.svg" class="my-3" height="36px" alt="">
-            <span>
-              Contratura muscular
-            </span>
-            <img src="svg/arrow-sm.svg" class="my-3" height="36px" alt="">
-            <span>
-              Deformidades
-            </span>
-            <div class="alert border border-dark text-center my-3">
-              <strong>A redução da força muscular, por sua vez</strong> resulta na redução do trofismo muscular,
-              contraturas musculares e
-              deformidades.
-            </div>
-          </div>
-        </div>
-        <div class="col px-4">
-          <div class="row">
-            <button type="button" class="btn" data-target="tres">
-              <i class="bi bi-arrow-down"></i>
-              <span>capacidade vital</span>
-            </button>
-          </div>
-          <div id="tres" class="conteudo row text-center">
-            <img src="svg/arrow-sm.svg" class="my-3" height="36px" alt="">
-            <span>
-              Hipertrofia muscular
-            </span>
-            <img src="svg/arrow-sm.svg" class="my-3" height="36px" alt="">
-            <span>
-              <i class="bi bi-arrow-down"></i>
-              Hipoventilação
-            </span>
-            <div class="alert border border-dark text-center my-3">
-              Além disso, <strong>diminui a capacidade vital</strong> agravada pela
-              <strong>redução da ventilação pulmonar e da tolerância à atividade física</strong>.
-            </div>
-          </div>
-        </div>
-        <div class="col px-4">
-          <div class="row text-center">
-            <button type="button" class="btn" data-target="quatro">
-              <i class="bi bi-arrow-down"></i>
-              <span>do condicionamento físico</span>
-            </button>
-          </div>
-          <div id="quatro" class="conteudo row text-center">
-            <img src="svg/arrow-sm.svg" class="my-3" height="36px" alt="">
-            <span>
-              <i class="bi bi-arrow-up"></i>
-              fadiga
-            </span>
-            <div class="alert border border-dark text-center my-3">
-              A <strong>redução do condicionamento físico</strong> também acontece nas pessoas com ELA, causando uma
-              elevação da fadiga.
-            </div>
-          </div>
-        </div>
-        <div class="col px-4">
-          <div class="row">
-            <button type="button" class="btn" data-target="cinco">
-              <i class="bi bi-arrow-down"></i>
-              <span>tensão sobre tendões e ligamentos</span>
-            </button>
-          </div>
-          <div id="cinco" class="conteudo row text-center">
-            <img src="svg/arrow-sm.svg" class="my-3" height="36px" alt="">
-            <span>
-              Osteoporose
-            </span>
-            <img src="svg/arrow-sm.svg" class="my-3" height="36px" alt="">
-            <span>
-              <i class="bi bi-arrow-down"></i>
-              Fraturas
-            </span>
-            <div class="alert border border-dark text-center my-3">
-              A <strong>diminuição da tensão sobre tendões e ligamentos</strong>
-              aumentará a predisposição à <strong>osteoporose</strong>, levando a um
-              maior risco a <strong>fraturas</strong>.
-            </div>
-          </div>
+      <div class="d-flex justify-content-center mb-3">
+        <audio controls>
+          <source class="" src="mp3/0.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+      <div class="botao">
+        <div class="d-flex mt-3">
+          <i class="bi bi-arrow-return-right"></i>
+          <button class="btn mx-3 fw-bold imobilidade border border-dark">Imobilidade</button>
+          <i class="bi bi-arrow-return-left"></i>
         </div>
       </div>
-    </div>
+      <div class="alerta alert border border-dark my-4 w-25 text-center">
+        A fraqueza muscular é causada pelo processo neurodegenerativo da doença. Pode levar à imobilidade no leito.
+      </div>
+      <div class="canvas my-3">
+        <div class="d-flex flex-column align-items-center w-100">
+          <img class="arrows" src="svg/arrows.svg" alt="">
+        </div>
+        <div class="row w-100 py-3">
+          <div class="col px-4">
+            <div class="row text-center">
+              <button type="button" class="btn" data-target="um">
+                <span>Rigidez articular</span>
+              </button>
+            </div>
+            <div id="um" class="conteudo row text-center">
+              <img src="svg/arrow-sm.svg" class="my-3" height="36px" alt="">
+              <span>
+                Dor
+              </span>
+              <div class="alert border border-dark text-center my-3">
+                Isso poderá causar aumento da <strong>rigidez articular</strong> e aumento da predisposição à
+                <strong>dor</strong>.
+              </div>
+            </div>
+          </div>
+          <div class="col px-4">
+            <div class="row">
+              <button type="button" class="btn" data-target="dois">
+                <i class="bi bi-arrow-down"></i>
+                <span>força muscular</span>
+              </button>
+            </div>
+            <div id="dois" class="conteudo row text-center">
+              <img src="svg/arrow-sm.svg" class="my-3" height="36px" alt="">
+              <span>
+                Hipertrofia muscular
+              </span>
+              <img src="svg/arrow-sm.svg" class="my-3" height="36px" alt="">
+              <span>
+                Contratura muscular
+              </span>
+              <img src="svg/arrow-sm.svg" class="my-3" height="36px" alt="">
+              <span>
+                Deformidades
+              </span>
+              <div class="alert border border-dark text-center my-3">
+                <strong>A redução da força muscular, por sua vez</strong> resulta na redução do trofismo muscular,
+                contraturas musculares e
+                deformidades.
+              </div>
+            </div>
+          </div>
+          <div class="col px-4">
+            <div class="row">
+              <button type="button" class="btn" data-target="tres">
+                <i class="bi bi-arrow-down"></i>
+                <span>capacidade vital</span>
+              </button>
+            </div>
+            <div id="tres" class="conteudo row text-center">
+              <img src="svg/arrow-sm.svg" class="my-3" height="36px" alt="">
+              <span>
+                Hipertrofia muscular
+              </span>
+              <img src="svg/arrow-sm.svg" class="my-3" height="36px" alt="">
+              <span>
+                <i class="bi bi-arrow-down"></i>
+                Hipoventilação
+              </span>
+              <div class="alert border border-dark text-center my-3">
+                Além disso, <strong>diminui a capacidade vital</strong> agravada pela
+                <strong>redução da ventilação pulmonar e da tolerância à atividade física</strong>.
+              </div>
+            </div>
+          </div>
+          <div class="col px-4">
+            <div class="row text-center">
+              <button type="button" class="btn" data-target="quatro">
+                <i class="bi bi-arrow-down"></i>
+                <span>do condicionamento físico</span>
+              </button>
+            </div>
+            <div id="quatro" class="conteudo row text-center">
+              <img src="svg/arrow-sm.svg" class="my-3" height="36px" alt="">
+              <span>
+                <i class="bi bi-arrow-up"></i>
+                fadiga
+              </span>
+              <div class="alert border border-dark text-center my-3">
+                A <strong>redução do condicionamento físico</strong> também acontece nas pessoas com ELA, causando uma
+                elevação da fadiga.
+              </div>
+            </div>
+          </div>
+          <div class="col px-4">
+            <div class="row">
+              <button type="button" class="btn" data-target="cinco">
+                <i class="bi bi-arrow-down"></i>
+                <span>tensão sobre tendões e ligamentos</span>
+              </button>
+            </div>
+            <div id="cinco" class="conteudo row text-center">
+              <img src="svg/arrow-sm.svg" class="my-3" height="36px" alt="">
+              <span>
+                Osteoporose
+              </span>
+              <img src="svg/arrow-sm.svg" class="my-3" height="36px" alt="">
+              <span>
+                <i class="bi bi-arrow-down"></i>
+                Fraturas
+              </span>
+              <div class="alert border border-dark text-center my-3">
+                A <strong>diminuição da tensão sobre tendões e ligamentos</strong>
+                aumentará a predisposição à <strong>osteoporose</strong>, levando a um
+                maior risco a <strong>fraturas</strong>.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-    <div class="conclusao ">
-      <div class="d-flex flex-column justify-content-center align-items-center">
-        <img class="arrows2" src="svg/arrows2.svg" alt="">
-        <h3 class="text-center fw-bold my-3">Imobilidade</h3>
-        <img src="svg/arrow.svg" alt="">
-        <h3 class="text-center fw-bold my-3">Piora de QUALIDADE DE VIDA</h3>
-        <div class="alert border border-dark w-50 text-center">
-          A soma de todos estes fatores leva a um ciclo, que predispõe à permanência prolongada no leito (o aumento do
-          imobilismo), e consequentemente, uma pior qualidade de vida.
+      <div class="conclusao ">
+        <div class="d-flex flex-column justify-content-center align-items-center">
+          <img class="arrows2" src="svg/arrows2.svg" alt="">
+          <h3 class="text-center fw-bold my-3">Imobilidade</h3>
+          <img src="svg/arrow.svg" alt="">
+          <h3 class="text-center fw-bold my-3">Piora de QUALIDADE DE VIDA</h3>
+          <div class="alert border border-dark w-50 text-center">
+            A soma de todos estes fatores leva a um ciclo, que predispõe à permanência prolongada no leito (o aumento do
+            imobilismo), e consequentemente, uma pior qualidade de vida.
+          </div>
         </div>
       </div>
     </div>
-  </div>
+  </main>
+  <footer>
+      <div class="d-flex justify-content-center mt-5 mb-3">
+          <img src="logos.svg" alt="" class="img-fluid">
+      </div>
+  </footer>
 </body>
 
 <script type="text/javascript" src="figura-interativa.js"></script>

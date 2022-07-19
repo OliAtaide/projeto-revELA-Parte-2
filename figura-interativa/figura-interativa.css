@@ -16,7 +16,7 @@
   font-size: 30px;
 }
 
-.botao i{
+.botao i {
   font-size: 2em;
 }
 
@@ -36,15 +36,17 @@
   color: black !important;
 }
 
-span, canvas .btn, .canvas i{
+span,
+canvas .btn,
+.canvas i {
   font-size: 20px;
 }
 
-.alert{
+.alert {
   background-color: #FDFFAF;
 }
 
-.btn:disabled{
+.btn:disabled {
   opacity: 1 !important;
 }
 
@@ -52,7 +54,19 @@ span, canvas .btn, .canvas i{
   filter: grayscale(100%) brightness(200%);
 }
 
-.arrows2{
+.arrows2 {
   margin-top: -12em;
   margin-bottom: -2em;
+}
+
+.header {
+  background-color: #265B88;
+}
+
+.subheader {
+  background-color: #AECBDC;
+}
+
+main{
+  min-height: 100vh;
 }

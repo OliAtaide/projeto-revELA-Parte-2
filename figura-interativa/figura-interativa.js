@@ -37,12 +37,20 @@ $('.form-check-input').change(function () {
     $('h3, span, i').addClass('text-white');
     $('img').addClass('img-dark');
     $('.alert').addClass('alert-dark');
+
+    $('.header').css('background-color', '#B9B9B9');
+    $('.subheader').css('background-color', '#5f5f5f');
+    $('.header span').removeClass('text-white');
   }
   else {
     $('body').css('background-color', '#fff');
     $('h3, span, i').removeClass('text-white');
     $('img').removeClass('img-dark');
     $('.alert').removeClass('alert-dark');
+
+    $('.header').css('background-color', '#5A729A');
+    $('.subheader').css('background-color', '#3B4C66');
+    $('.header span').addClass('text-white');
   }
 })
 

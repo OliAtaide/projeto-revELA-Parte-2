@@ -5,8 +5,12 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.navbar {
-    background-color: #5A729A;
+.header {
+    background-color: #265B88;
+}
+
+.subheader {
+    background-color: #AECBDC;
 }
 
 .form-check-input {

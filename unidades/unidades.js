@@ -27,12 +27,14 @@ $('#voltar').click(function () {
 $('.form-check-input').change(function () {
     if ($(this).is(':checked')) {
         $('body').css('background-color', '#1C1C1C');
-        $('.navbar').css('background-color', '#B9B9B9');
+        $('.header').css('background-color', '#B9B9B9');
+        $('.subheader').css('background-color', '#5f5f5f');
         $('h5, p').css('color', '#fff');
         $('path').css('fill', 'white');
 
-        $('.navbar').removeClass('navbar-dark');
         $('#titulo').addClass('titulo-dark');
+        $('.header span').removeClass('text-white');
+        $('.subheader span').addClass('text-white');
         botoes.find('rect').addClass('botao-dark');
         $('.label').find('rect').addClass('botao-dark');
         $('#fase rect').addClass('botao-dark');
@@ -40,12 +42,14 @@ $('.form-check-input').change(function () {
     }
     else {
         $('body').css('background-color', 'white');
-        $('.navbar').css('background-color', '#5A729A');
+        $('.header').css('background-color', '#5A729A');
+        $('.subheader').css('background-color', '#3B4C66');
         $('h5, p').css('color', '#000');
         $('path').css('fill', 'black');
 
-        $('.navbar').addClass('navbar-dark');
         $('#titulo').removeClass('titulo-dark');
+        $('.header span').addClass('text-white');
+        $('.subheader span').removeClass('text-white');
         botoes.find('rect').removeClass('botao-dark');
         $('#fase rect').removeClass('botao-dark');
         $('#voltar').removeClass('text-white');

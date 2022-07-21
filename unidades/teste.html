@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</head>
+
+<style>
+    *,
+    *:before,
+    *:after {
+        box-sizing: border-box;
+    }
+
+    body {
+        min-width: 1200px;
+        margin: 0;
+        padding: 50px;
+        font: 16px Verdana, sans-serif;
+        user-select: none;
+    }
+
+    #wrapper {
+        position: absolute;
+        left: calc(50% - 75px);
+    }
+
+    .wrapper-label {
+        background-color: #5A729A;
+        border-radius: 10px;
+        width: 150px;
+    }
+
+    .branch-left,
+    .branch-right {
+        position: absolute;
+    }
+
+    .branch:not(.branch-left, .branch-right) {
+        position: relative;
+    }
+
+    .branch-right,
+    .branch-right .branch {
+        left: 250px;
+    }
+
+    .branch-left,
+    .branch-left .branch {
+        right: 250px;
+    }
+
+    .branch:before {
+        content: "";
+        width: 50px;
+        border-top: 2px solid black;
+        position: absolute;
+        top: 50%;
+        margin-top: 1px;
+    }
+
+    .lv2 .entry{
+        min-width: 300px;
+    }
+
+    .lv2 .entry-label{
+        border: 1px solid black;
+        margin-top: 1em;
+    }
+
+    .branch-right:before,
+    .branch-right .branch:before {
+        left: -100px;
+    }
+
+    .branch-left:after,
+    .branch-left .branch:after {
+        right: 0px;
+    }
+
+    .branch-right .entry:before {
+        content: "";
+        height: 100%;
+        border-left: 2px solid black;
+        position: absolute;
+        left: -50px;
+    }
+
+    .branch-left .entry:after {
+        content: "";
+        height: 100%;
+        border-left: 2px solid black;
+        position: absolute;
+        right: 50px;
+    }
+
+    .entry {
+        position: relative;
+        min-height: 60px;
+    }
+
+    .branch-right .entry:after {
+        content: "";
+        width: 50px;
+        border-top: 2px solid black;
+        position: absolute;
+        left: -50px;
+        top: 50%;
+        margin-top: 1px;
+    }
+
+    .branch-left .entry:before {
+        content: "";
+        width: 50px;
+        border-top: 2px solid black;
+        position: absolute;
+        right: 50px;
+        top: 50%;
+        margin-top: 1px;
+    }
+
+    .branch-right .entry:first-child:before {
+        width: 10px;
+        height: 50%;
+        top: 50%;
+        margin-top: 2px;
+        border-radius: 10px 0 0 0;
+    }
+
+    .branch-right .entry:first-child:after {
+        height: 10px;
+        border-radius: 10px 0 0 0;
+    }
+
+    .branch-right .entry:last-child:before {
+        width: 10px;
+        height: 50%;
+        border-radius: 0 0 0 10px;
+    }
+
+    .branch-right .entry:last-child:after {
+        height: 10px;
+        border-top: none;
+        border-bottom: 2px solid black;
+        border-radius: 0 0 0 10px;
+        margin-top: -9px;
+    }
+
+    .branch-left .entry:first-child:after {
+        width: 10px;
+        height: 50%;
+        top: 50%;
+        margin-top: 2px;
+        border-radius: 10px 0 0 0;
+    }
+
+    .branch-left .entry:first-child:before {
+        height: 10px;
+        border-radius: 10px 0 0 0;
+    }
+
+    .branch-left .entry:last-child:after {
+        width: 10px;
+        height: 50%;
+        border-radius: 0 0 0 10px;
+    }
+
+    .branch-left .entry:last-child:before {
+        height: 10px;
+        border-top: none;
+        border-bottom: 2px solid black;
+        border-radius: 0 0 0 10px;
+        margin-top: -9px;
+    }
+
+    .entry.sole:before {
+        display: none;
+    }
+
+    .entry.sole:after {
+        width: 50px;
+        height: 0;
+        margin-top: 1px;
+        border-radius: 0;
+    }
+
+    .label {
+        display: block;
+        min-width: 150px;
+        padding: 1em;
+        line-height: 20px;
+        text-align: center;
+        border-radius: 5px;
+        position: absolute;
+        margin: auto;
+        left: 0;
+        top: 50%;
+        margin-top: -15px;
+    }
+
+    .entry-label:not(.lv2 .entry-label) {
+        background-color: #96D2E7;
+        border-radius: 10px;
+    }
+</style>
+
+<body>
+
+    <div id="wrapper">
+        <span class="label wrapper-label">Abordagem geral sobre a ELA e Fisioterapia Motora</span>
+        <div class="branch lv1 branch-left">
+            <div class="entry">
+                <span class="label entry-label">Definição</span>
+                <div class="branch lv2">
+                    <div class="entry">
+                        <span class="label">
+                            Degeneração de neurônios motores superiores e inferiores
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="entry">
+                <span class="label entry-label">Fisiopatologia</span>
+                <div class="branch lv2">
+                    <div class="entry">
+                        <span class="label">Fatores genéticos</span>
+                    </div>
+                    <div class="entry">
+                        <span class="label">Fatores ambientais2</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="entry">
+                <span class="label entry-label">Sintomas</span>
+                <div class="branch lv2">
+                    <div class="entry"><span class="label">Sintomas dependerão da região do sistema nervoso central que
+                            foi acometida</span></div>
+                    <!-- <div class="entry"><span class="label">Entry-3-3</span>
+                        <div class="branch lv3">
+                            <div class="entry"><span class="label">Entry-3-3-1</span></div>
+                            <div class="entry"><span class="label">Entry-3-3-2</span>
+                                <div class="branch lv4">
+                                    <div class="entry"><span class="label">Entry-3-3-2-1</span></div>
+                                    <div class="entry"><span class="label">Entry-3-3-2-2</span></div>
+                                </div>
+                            </div>
+                            <div class="entry"><span class="label">Entry-3-3-3</span></div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+
+        </div>
+        <div class="branch lv1 branch-right">
+            <div class="entry">
+                <span class="label entry-label">
+                    Definição
+                </span>
+                <div class="branch lv2">
+                    <div class="entry">
+                        <span class="label entry-label">
+                            Degeneração de neurônios motores superiores e inferiores
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="entry">
+                <span class="label entry-label">
+                    Fisiopatologia
+                </span>
+                <div class="branch lv2">
+                    <div class="entry">
+                        <span class="label entry-label">Fatores genéticos</span>
+                    </div>
+                    <div class="entry">
+                        <span class="label entry-label">Fatores ambientais2</span>
+                    </div>
+                </div>
+            </div>
+            <div class="entry">
+                <span class="label entry-label">
+                    Sintomas
+                </span>
+                <div class="branch lv2">
+                    <div class="entry">
+                        <span class="label entry-label">
+                            Sintomas dependerão da região do sistema nervoso central que foi acometida
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

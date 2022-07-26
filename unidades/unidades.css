@@ -13,6 +13,11 @@
     background-color: #AECBDC;
 }
 
+.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+}
+
 .form-check-input {
     width: 3em !important;
     height: 2em;

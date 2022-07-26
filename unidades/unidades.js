@@ -1,28 +1,21 @@
-var botoes = $("[id^='botao']");
+var botoes = $(".botao");
 
 botoes.css('cursor', 'pointer');
 
-$('.content').hide();
+console.log(botoes);
+$('g[id$="-conteudo"]').hide();
 $('#voltar').hide();
 
-botoes.click(function () {
-    var cls = $(this).attr('class');
-    console.log(cls);
-    console.log($('#' + cls))
-    $('.main').fadeOut(200, function () {
-        $('#voltar, #' + cls).fadeIn(200);
+$(botoes)
+    .mouseenter(function () {
+        var id = $(this).attr('id') + '-conteudo';
+        console.log(id);
+        $('#' + id).fadeIn(500);
+    })
+    .mouseleave(function () {
+        var id = $(this).attr('id') + '-conteudo';
+        $('#' + id).fadeOut(500);
     });
-
-})
-
-$('#voltar').click(function () {
-    var cls = $(this).attr('class');
-    console.log(cls);
-    console.log($('#' + cls))
-    $('.content, #voltar').fadeOut(200, function () {
-        $('.main').fadeIn(200);
-    });
-})
 
 $('.form-check-input').change(function () {
     if ($(this).is(':checked')) {

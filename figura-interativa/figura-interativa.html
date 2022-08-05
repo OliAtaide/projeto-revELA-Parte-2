@@ -18,22 +18,52 @@
 </head>
 
 <body>
-  <div class="position-relative my-3 d-flex flex-column align-items-center">
-    <div class="ms-auto position-absolute end-0 d-flex align-items-center">
-      <div class="form-check form-switch me-3 ">
-        <input class="form-check-input bg-white" type="checkbox" role="switch" id="flexSwitchCheckDefault">
-      </div>
-      <button class="font-plus btn btn-sm btn-outline-secondary border-end-0 bg-white rounded-end rounded-pill">
-        A+
-      </button>
-      <button class="font-minus btn btn-sm btn-outline-secondary bg-white rounded-start rounded-pill">
-        A-
-      </button>
+  <nav class="header navbar navbar-expand-lg">
+    <div class="container">
+      <span class="text-truncate text-white w-50">
+        <strong>Módulo: </strong>Fisioterapia Motora na ELA
+        <br>
+        <strong>Unidade 1: </strong>Abordagem geral sobre a ELA e Fisioterapia Motora
+        <br>
+        <strong>Conteudistas: </strong> Ledycnarf Januário de Holanda e Luciana Protásio de Melo
+      </span>
+      <ul class="navbar-nav flex-row ms-auto">
+        <li class="nav-item me-2">
+          <div class="form-check form-switch">
+            <input class="form-check-input bg-white" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+          </div>
+        </li>
+        <li class="nav-item d-flex">
+          <button
+            class="font-plus btn btn-sm btn-outline-secondary shadow-none border-end-0 bg-white rounded-end rounded-pill">
+            A+
+          </button>
+          <button class="font-minus btn btn-sm btn-outline-secondary shadow-none bg-white rounded-start rounded-pill">
+            A-
+          </button>
+        </li>
+      </ul>
     </div>
+  </nav>
+  <nav class="subheader navbar navbar-expand navbar-dark">
+    <div class="container">
+      <span class="navbar-nav fw-bold text-center text-uppercase justify-content-center w-100">
+        INFOGRÁFICO INTERATIVO
+      </span>
+    </div>
+  </nav>
+  <div class="main position-relative my-3 d-flex flex-column align-items-center">
     <div class="d-flex align-items-center">
       <button class="btn titulo">
         <h3 class="text-center fw-bold">FRAQUEZA MUSCULAR</h3>
       </button>
+    </div>
+    <div class="d-flex justify-content-center align-items-center mb-3">
+      <h5>Ouça este conteúdo:</h3>
+        <audio class="mx-3" controls>
+          <source class="" src="mp3/0.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
     </div>
     <div class="botao">
       <div class="d-flex mt-3">
@@ -175,6 +205,9 @@
         </div>
       </div>
     </div>
+  </div>
+  <div class="d-flex justify-content-center mt-5 mb-3">
+    <img src="logos.svg" alt="" class="img-fluid">
   </div>
 </body>
 

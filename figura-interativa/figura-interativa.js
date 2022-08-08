@@ -54,19 +54,11 @@ $('.form-check-input').change(function () {
   }
 })
 
-// new
-
 $('.conteudo, .alerta, .canvas, .conclusao').hide();
-
-// $('.titulo').click(function () {
-//   $('.botao, .alerta').fadeIn(500);
-//   $('.canvas').fadeOut(500);
-// })
 
 var imobilidade = false;
 
 function conclusao() {
-  $('.alert').not('.conclusao .alert').fadeOut(500);
   $('.conteudo').fadeIn(500);
   $('.conclusao').fadeIn(500);
   $('button').not('.font-plus, .font-minus, .form-check-input').prop('disabled', true);

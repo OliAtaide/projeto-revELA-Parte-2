@@ -4,6 +4,7 @@ p {
   line-height: 22px;
   text-align: justify;
 }
+
 .conteudo {
   margin: auto;
   width: 900px;
@@ -26,82 +27,72 @@ p {
 }
 
 #cwd-grid {
-    border: solid 1px black;
+  border: solid 1px black;
 }
 
-#cwd-grid td.cwd-tile-highlight
-{
-    background-color: Yellow !important;
+#cwd-grid td.cwd-tile-highlight {
+  background-color: Yellow !important;
 }
 
-#cwd-grid td.cwd-tile-cursor
-{
-    border-color: black !important;
-    background-color: darkgray !important;
-    color: black;
+#cwd-grid td.cwd-tile-cursor {
+  border-color: black !important;
+  background-color: darkgray !important;
+  color: black;
 }
 
-#cwd-grid td.cwd-tile-correct
-{
-    background-color: Lime !important;
+#cwd-grid td.cwd-tile-correct {
+  background-color: Lime !important;
 }
 
-#cwd-grid td.cwd-tile-incorrect
-{
-    border-color: Red !important;
+#cwd-grid td.cwd-tile-incorrect {
+  border-color: Red !important;
 }
 
 .cwd-tile {
-    width: 35px;
-    height: 35px;
-    border: solid 1px black;
-    padding: 0;
-    vertical-align: top;
+  width: 35px;
+  height: 35px;
+  border: solid 1px black;
+  padding: 0;
+  vertical-align: top;
 }
 
 .cwd-tile-letter {
-    text-align: center;
-    font-size: 16px;
+  text-align: center;
+  font-size: 16px;
 }
 
 #cwd-clue-box {
-    padding: 5px;
-    margin-top: 5px;
-    border: solid 1px black;
-    font-size: 105%;
-    font-weight: bold;
-    height: 80px;
-    text-align: justify;
+  padding: 5px;
+  margin-top: 5px;
+  border: solid 1px black;
+  font-size: 105%;
+  font-weight: bold;
+  height: 80px;
+  text-align: justify;
 }
 
-.cwd-clue-highlight
-{
-    font-weight: bold;
+.cwd-clue-highlight {
+  font-weight: bold;
 }
 
 .cwd-clues-header {
-    font-size: 105%;
-    font-weight: bold;
-    padding-top: 5px;
-    padding-bottom: 5px;
+  font-size: 105%;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .cwd-clue div {
-    display: table-cell;
+  display: table-cell;
 }
 
 .cwd-clue-no {
-    width: 25px;
+  width: 25px;
 }
 
 .cwd-clue-text {
-    cursor: pointer;
+  cursor: pointer;
 }
-
-.cwd-tile-inactive {
-
-}
-
 
 .aux {
   margin-top: 30px;
@@ -113,8 +104,8 @@ p {
   margin-top: 30px;
 }
 
-.modal-title { 
-	text-align: center;
+.modal-title {
+  text-align: center;
 }
 
 .header {

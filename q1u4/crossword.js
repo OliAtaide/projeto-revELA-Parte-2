@@ -1,6 +1,6 @@
-(function($) {
+(function ($) {
   var cont = 0;
-  $.crossword = function(data, options) {
+  $.crossword = function (data, options) {
     var defaultOptions = {
       colour: "grey",
       cluesToRight: true,
@@ -12,7 +12,7 @@
     var clues = [];
     var multiClues = [];
     var impl = {
-      init: function(data, options) {
+      init: function (data, options) {
         var dataType = typeof data;
 
         if (dataType === "object") {
@@ -38,7 +38,7 @@
         return true;
       },
 
-      appendGrid: function(options) {
+      appendGrid: function (options) {
         var gridWidth = options.gridMask[0].length;
         var gridHeight = options.gridMask.length;
         var gridSize = {
@@ -55,7 +55,7 @@
         );
         var clueNo = 1;
 
-        var newTile = function(row, col) {
+        var newTile = function (row, col) {
           return (
             $(
               impl.stringFormat(
@@ -93,7 +93,7 @@
           acrossClueIndex = 0,
           downClueIndex = 0;
         // Iterate through each active tile, adding clue numbers where appropriate and build clue arrays.
-        grid.find("td.cwd-tile-active").each(function() {
+        grid.find("td.cwd-tile-active").each(function () {
           // Work out whether it's a numbered tile
           var i = parseInt($(this).attr("row")),
             j = parseInt($(this).attr("col"));
@@ -107,7 +107,7 @@
           var downNo =
             (i === 0 || options.gridMask[i - 1].charAt(j) !== " ") &&
             i < gridSize.height - 1 &&
-              options.gridMask[i + 1].charAt(j) === " ";
+            options.gridMask[i + 1].charAt(j) === " ";
 
           var row = i,
             col = j;
@@ -181,9 +181,9 @@
         });
 
         // Assign the text to the sub-clues of each multi-clue (e.g. "See 18a").
-        $.each(multiClues, function(index, value) {
+        $.each(multiClues, function (index, value) {
           var rootClue = value.clue;
-          $.each(value.multiParts, function(index2, subClueText) {
+          $.each(value.multiParts, function (index2, subClueText) {
             var findText = impl.stringFormat("[[{0}]]", subClueText);
             var subClue = impl.findClueByText(findText);
             if (subClue) {
@@ -203,8 +203,8 @@
         var clueBox =
           options.clueBox === true
             ? $('<div id="cwd-clue-box" />').append(
-                '<span id="cwd-clue-box-text" />'
-              )
+              '<span id="cwd-clue-box-text" />'
+            )
             : "";
 
         // Add the grid into the DOM.
@@ -220,14 +220,14 @@
           .css({ display: "inline-block", width: grid.width() });
 
         // Align tile letters vertically.
-        $(".cwd-tile-letter").each(function() {
+        $(".cwd-tile-letter").each(function () {
           $(this).text("A");
           $(this).css("margin-top", (options.tileSize - $(this).height()) / 2);
           $(this).text(" ");
         });
       },
 
-      buildClueObject: function(
+      buildClueObject: function (
         clue,
         clueId,
         clueNo,
@@ -321,10 +321,10 @@
         return clueObj;
       },
 
-      bindEvents: function() {
+      bindEvents: function () {
         var s = this;
 
-        $("#cwd-grid td.cwd-tile-active").click(function() {
+        $("#cwd-grid td.cwd-tile-active").click(function () {
           var prevDirection = "";
           // Record which direction the clue is currently hightlighted in, if any.
           if ($(this).hasClass("cwd-tile-highlight")) {
@@ -332,9 +332,9 @@
               $(this)
                 .prev("td.cwd-tile-active")
                 .hasClass("cwd-tile-highlight") ||
-              $(this)
-                .next("td.cwd-tile-active")
-                .hasClass("cwd-tile-highlight")
+                $(this)
+                  .next("td.cwd-tile-active")
+                  .hasClass("cwd-tile-highlight")
                 ? "a"
                 : "d";
           }
@@ -355,7 +355,7 @@
           impl.showClue(clueId);
         });
 
-        $("#cwd-clues .cwd-clue-text").click(function() {
+        $("#cwd-clues .cwd-clue-text").click(function () {
           var clueId = -1;
           if (!$(this).hasClass("cwd-clue-highlight")) {
             clueId = parseInt(
@@ -367,14 +367,14 @@
           impl.showClue(clueId);
         });
 
-        $("#cwd-grid td.cwd-tile-active").mousedown(function(event) {
+        $("#cwd-grid td.cwd-tile-active").mousedown(function (event) {
           //if (event.which === 3) {
           // Right-click
           //    alert('rclick');
           //}
         });
 
-        $(document).keydown(function(event) {
+        $(document).keydown(function (event) {
           var highlightedTiles = $("#cwd-grid td.cwd-tile-highlight");
 
           if (highlightedTiles.length > 0) {
@@ -386,7 +386,7 @@
             // Get the direction of the (first word in the) highlighted clue.
             var direction =
               highlightedTiles.filter("[cursorIndex=0]").attr("row") ===
-              highlightedTiles.filter("[cursorIndex=1]").attr("row")
+                highlightedTiles.filter("[cursorIndex=1]").attr("row")
                 ? "a"
                 : "d";
             var oppDirection = direction === "a" ? "d" : "a";
@@ -505,7 +505,7 @@
                         clue.enteredAnswer = enteredAnswer;
 
                         if (impl.isGridCompleted()) {
-                          $.each(clues, function(index, value) {
+                          $.each(clues, function (index, value) {
                             if (clue.answer && clue.enteredAnswer) {
                               if (
                                 clue.answer.toUpperCase() !== clue.enteredAnswer
@@ -519,13 +519,13 @@
                           });
 
                           if (canValidate) {
-                           
+
                             tilesToHighlight = $(".cwd-tile-active");
                           }
                         }
                         break;
 
-                       case "clue":
+                      case "clue":
                         tilesToHighlight = highlightedTiles;
                         if (clue.answer) {
                           canValidate = true;
@@ -542,19 +542,19 @@
                         console.log(clue.answer);
                         tilesToHighlight.addClass("cwd-tile-correct");
                         console.log(cont);
-                        
-                        if (cont==4){
+
+                        if (cont == 4) {
                           $("#myModal").modal("show");
                         }
 
                       } else {
                         tilesToHighlight.addClass("cwd-tile-incorrect");
-                      } 
+                      }
 
-               
-    
-                    } 
-                    
+
+
+                    }
+
                   }
                 }
               }
@@ -566,53 +566,53 @@
         });
       },
 
-      isGridCompleted: function() {
+      isGridCompleted: function () {
         // Return true if all active tiles have a letter entered into them.
         return (
           $(".cwd-tile-active")
             .find(".cwd-tile-letter")
-            .filter(function() {
+            .filter(function () {
               return $(this).text() === " ";
             }).length === 0
         );
       },
 
-      findClueByNumber: function(clueNo, direction) {
+      findClueByNumber: function (clueNo, direction) {
         var number = clueNo;
         if (typeof number === "string") {
           number = parseInt(number);
         }
-        var findFunc = function(c) {
+        var findFunc = function (c) {
           return c.number === number && c.direction === direction;
         };
         var foundClues = impl.findClues(findFunc);
         return foundClues.length === 1 ? foundClues[0] : null;
       },
 
-      findClueById: function(id) {
+      findClueById: function (id) {
         return id < clues.length ? clues[id] : null;
       },
 
-      findClueByText: function(clueText) {
-        var findFunc = function(c) {
+      findClueByText: function (clueText) {
+        var findFunc = function (c) {
           return c.text === clueText;
         };
         var foundClues = impl.findClues(findFunc);
         return foundClues.length === 1 ? foundClues[0] : null;
       },
 
-      findCluesByDirection: function(direction) {
-        var findFunc = function(c) {
+      findCluesByDirection: function (direction) {
+        var findFunc = function (c) {
           return c.direction === direction;
         };
         return impl.findClues(findFunc);
       },
 
-      findClues: function(findFunc) {
+      findClues: function (findFunc) {
         return $.grep(clues, findFunc);
       },
 
-      appendClues: function(data, onRight) {
+      appendClues: function (data, onRight) {
         var displayStyle = onRight ? "inline-block" : "block";
         var cluesDiv = $(
           impl.stringFormat(
@@ -621,14 +621,14 @@
           )
         );
         var missingClue = '<span style="color: red;">Missing clue</span>';
-        var clueHeader = function(label) {
+        var clueHeader = function (label) {
           return $("<div />")
             .addClass("cwd-clues-header")
             .text(label);
         };
 
-        var addClues = function(clueArray) {
-          $.each(clueArray, function(index, clue) {
+        var addClues = function (clueArray) {
+          $.each(clueArray, function (index, clue) {
             cluesDiv.append(
               impl.stringFormat(
                 '<div class="cwd-clue"><div class="cwd-clue-no"><b>{0}</b></div><div id="cwd-clueText-{1}" class="cwd-clue-text"> {2}</div></div>',
@@ -641,11 +641,11 @@
           });
         };
 
-		// Down clues.
+        // Down clues.
         clueHeader("VERTICAL").appendTo(cluesDiv);
         var downClues = impl.findCluesByDirection("d");
         addClues(downClues);
-		
+
         // Across clues.
         clueHeader("HORIZONTAL").appendTo(cluesDiv);
         var acrossClues = impl.findCluesByDirection("a");
@@ -656,7 +656,7 @@
         impl.columniseClues(onRight);
       },
 
-      showClue: function(clueId) {
+      showClue: function (clueId) {
         // Remove highlighting from previously highlighted tiles.
         $("#cwd-grid td.cwd-tile-highlight").removeClass("cwd-tile-highlight");
         $("#cwd-grid td.cwd-tile-cursor").removeClass("cwd-tile-cursor");
@@ -672,14 +672,14 @@
           var clueIds = impl.highlightTiles(clueId);
 
           $(".cwd-clue-highlight").removeClass("cwd-clue-highlight");
-          $.each(clueIds, function(index, value) {
+          $.each(clueIds, function (index, value) {
             // Highlight corresponding clue text(s).
             var clue = $(
               impl.stringFormat("#cwd-clues #cwd-clueText-{0}", value)
             ).addClass("cwd-clue-highlight");
             // Put the root clue text into the clue box.
             if (index === 0) {
-              $("#cwd-clue-box-text").fadeOut("fast", function() {
+              $("#cwd-clue-box-text").fadeOut("fast", function () {
                 $("#cwd-clue-box-text").text(clue.text());
                 $("#cwd-clue-box-text").fadeIn("fast");
               });
@@ -688,7 +688,7 @@
         }
       },
 
-      highlightTiles: function(clueId) {
+      highlightTiles: function (clueId) {
         var rootClue = null;
         var subClueIds = [];
         cursorIndex = 0;
@@ -710,7 +710,7 @@
                 impl.stringFormat("#cwd-grid td[acrossClueId={0}]", rootClue.id)
               )
                 .addClass("cwd-tile-highlight")
-                .each(function(index, value) {
+                .each(function (index, value) {
                   $(this).attr("cursorIndex", cursorIndex++);
                 });
               break;
@@ -719,18 +719,18 @@
               // Highlight the down clue.
               $(impl.stringFormat("#cwd-grid td[downClueId={0}]", rootClue.id))
                 .addClass("cwd-tile-highlight")
-                .each(function(index, value) {
+                .each(function (index, value) {
                   $(this).attr("cursorIndex", cursorIndex++);
                 });
               break;
           }
 
           // Also highlight any sub-clues.
-          $.each(subClueIds, function(index, subClueId) {
+          $.each(subClueIds, function (index, subClueId) {
             $(impl.stringFormat("#cwd-grid td[acrossClueId={0}]", subClueId))
               .add(impl.stringFormat("#cwd-grid td[downClueId={0}]", subClueId))
               .addClass("cwd-tile-highlight")
-              .each(function(index, value) {
+              .each(function (index, value) {
                 $(this).attr("cursorIndex", cursorIndex++);
               });
           });
@@ -755,11 +755,11 @@
         return [rootClue.id].concat(subClueIds);
       },
 
-      columniseClues: function(onRight) {
+      columniseClues: function (onRight) {
         var cluesDiv = $("#cwd-clues");
         var columnWidth = cluesDiv.width() / 2 - 4;
 
-        var getNewColumn = function(number) {
+        var getNewColumn = function (number) {
           return $(
             impl.stringFormat(
               '<div id="cwd-col{0}" style="position: relative; display: inline-table; vertical-align: top; width: {2};" />',
@@ -772,7 +772,7 @@
         var colDivs = [];
         colDivs.push(getNewColumn(0));
 
-        cluesDiv.children("div").each(function() {
+        cluesDiv.children("div").each(function () {
           $(this)
             .remove()
             .appendTo(colDivs[0]);
@@ -789,7 +789,7 @@
 
         while (!done) {
           var newColumn = false;
-          colDivs[col - 1].children("div").each(function() {
+          colDivs[col - 1].children("div").each(function () {
             // If the clues are on the right, test the bottom of the clue div, else test the top.
             var extra = onRight ? $(this).height() : 0;
             if ($(this).position().top + extra > columnHeight) {
@@ -810,7 +810,7 @@
           }
         }
 
-        cluesDiv.children("div").each(function(index, value) {
+        cluesDiv.children("div").each(function (index, value) {
           if (onRight && index === 0) {
             $(this).css("margin-left", "5px");
           }
@@ -820,11 +820,11 @@
         });
       },
 
-      stringFormat: function() {
+      stringFormat: function () {
         var resultString = arguments[0];
         var args = arguments;
         if (typeof resultString != "undefined") {
-          resultString = resultString.replace(/{(\d+)}/g, function(
+          resultString = resultString.replace(/{(\d+)}/g, function (
             match,
             number
           ) {
@@ -841,7 +841,7 @@
     return data;
   };
 
-  $.fn.crossword = function(options) {
+  $.fn.crossword = function (options) {
     return $.crossword(this, options);
   };
 })(jQuery);

@@ -32,7 +32,6 @@ li{
 
 span, .btn{
     font-weight: bold;
-    width: 100%;
 }
 
 .btn{
@@ -67,33 +66,5 @@ span, .btn{
 textarea{
     resize: none;
     border: 1px solid #265B88 !important;
-}
-
-.erro1{
-    color: #9a0002;
-}
-
-.erro2{
-    color: #fc9907;
-}
-
-.erro3{
-    color: #fffe06;
-    background-color: black;
-}
-
-.erro4{
-    color: #04fe06;
-}
-
-.erro5{
-    color: #01fffd;
-}
-
-.erro6{
-    color: #f702ff;
-}
-
-.erro7{
-    color: #5081e8;
+    height: 540px;
 }

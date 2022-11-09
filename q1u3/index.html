@@ -35,55 +35,35 @@
     </nav>
     <div class="quest container mt-3">
         <p>
-            A figura a seguir corresponde a um paciente em uma cadeira de rodas (CR). Identifique os 7 erros existentes na figura.
+            A figura abaixo corresponde a um paciente em uma cadeira de rodas (CR), logo em seguida está a sua
+            descrição. Identifique os 7 erros existentes na figura. E responda no espaço branco ao lado. Observação:
+            Para usuários com deficiência visual, o espaço branco vem logo após a descrição.
         </p>
-        <div class="d-flex">
-            <div class="d-flex justify-content-center">
-                <img src="q1u3.png" alt="">
+        <div class="row">
+            <div class="col">
+                <img class="mb-3" src="q1u3.png" alt="">
+                <p>
+                    <strong>Descrição</strong> - Duas fotografias coloridas, uma ao lado da outra, de um homem com Esclerose Lateral
+                    Amiotrófica (ELA), sentado em uma cadeira de rodas preta, no terraço de sua casa. Na fotografia da
+                    esquerda, o homem é visto em perfil. Na fotografia da direita, o homem é visto de frente. O homem é
+                    branco, tem cabelos pretos e lisos e apresenta dedos da mão com atrofia. Seu rosto está embaçado
+                    para preservar sua identidade. Veste camisa polo amarela clara, bermuda estampada vermelha e
+                    chinelos de dedo azuis. Carrega no peito um terço.
+                </p>
+                <p>
+                    O homem está em uma cadeira de rodas dobrável preta, com estrutura tubular, sem apoio para cabeça e
+                    com assento e encosto de tecido. Na fotografia da esquerda, região lombar do homem não está apoiada
+                    no encosto e seus pés estão mal apoiados nos suportes de pé (pedais) da cadeira de rodas. Na
+                    fotografia da direita, o homem está com a cabeça e ombro levemente inclinado para a direita; braço
+                    direito apoiado sobre a perna direita enquanto o braço esquerdo está sobre o braço da cadeira de
+                    rodas; sua perna direita está levemente dobrada para dentro, com joelhos quase se tocando.
+                </p>
             </div>
-            <div class="ms-3 w-100" action="">
-                <textarea class="form-control" name="" id="" cols="30" rows="10"></textarea>
-                <button class="btn mt-3 header text-white">OK</button>
+            <div class="col ms-3 w-100" action="">
+                <textarea class="form-control" name="" id="" cols="30" rows="10" placeholder="Responda aqui"></textarea>
+                <a href="feedback.html" class="btn mt-3 header text-white py-3">Enviar</a>
             </div>
         </div>
-    </div>
-    <div class="feedback container mt-3" style="display: none;">
-        <img src="q1u3_r.jpg" class="img-fluid" alt="">
-        <p class="mt-3">
-            A figura mostra uma pessoa com ELA com diversas complicações, por isso foi necessário prescrever a cadeira
-            de rodas corretamente.
-        <ul>
-            <li>
-                O <span class="erro1">erro 1</span> corresponde à altura do encosto. Quanto maior o comprometimento do
-                controle
-                postural, mais alto deve ser o encosto. No caso desta paciente, é perceptível um déficit de controle
-                postural e assim, ela necessita de apoio em toda a região cervical.
-            </li>
-            <li>
-                O <span class="erro2">erro 2</span> refere-se à largura do quadril,
-                que é uma medida importante tanto para o conforto do paciente, quanto para evitar acidentes domésticos.
-            </li>
-            <li>
-                O <span class="erro3">erro 3</span> refere-se à profundidade do assento para garantir o adequado posicionamento da pelve e do
-                joelho.
-            </li>
-            <li>
-                O <span class="erro4">erro 4</span> corresponde à altura do apoio, pois o cotovelo deve estar posicionado em 90º para manter a
-                altura do ombro em posição neutra e prevenir o surgimento de dores.
-            </li>
-            <li>
-                O <span class="erro5">erro 5</span> refere-se ao ângulo de flexão do joelho, imprescindível para pacientes com espasticidade ou
-                redução da flexibilidade dos músculos isquiotibiais.
-            </li>
-            <li>
-                O <span class="erro6">erro 6</span> corresponde à distância entre os joelhos, pois esses devem estar alinhados ao quadril.
-            </li>
-            <li>
-                O <span class="erro7">erro 7</span> corresponde ao tamanho do pé para mantê-lo em posição neutra.
-            </li>
-        </ul>
-
-        </p>
     </div>
     <div class="d-flex justify-content-center mt-5 mb-3">
         <img src="logos.svg" alt="" class="img-fluid">
@@ -94,6 +74,5 @@
     crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"
     integrity="sha256-xLD7nhI62fcsEZK2/v8LsBcb4lG7dgULkuXoXB/j91c=" crossorigin="anonymous"></script>
-<script src="script.js"></script>
 
 </html>

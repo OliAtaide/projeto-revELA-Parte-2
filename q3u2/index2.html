@@ -11,7 +11,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
     <script src="https://code.jquery.com/jquery-3.6.0.js"
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"
@@ -19,8 +18,21 @@
 </head>
 
 <style>
+    .header,
+    .footer {
+        background-color: #b9b9b9;
+    }
+
+    .subheader,
+    .btn-enviar {
+        background-color: #5f5f5f;
+    }
+
     body {
         background-color: #1d1d1bff;
+    }
+
+    form {
         color: #ffdd00ff;
     }
 
@@ -30,15 +42,23 @@
         border-radius: 5px;
     }
 
-    label{
+    label {
         font-size: 24px;
+    }
+
+    input {
+        width: 50px;
+        height: 50px;
+        border-radius: 25%;
+        font-size: 30px;
+        text-align: center;
     }
 </style>
 
 <body>
     <nav class="header navbar navbar-expand-lg">
         <div class="container">
-            <span class="text-truncate text-white w-50">
+            <span class="text-truncate w-50">
                 <strong>Módulo: </strong>Fisioterapia Motora na ELA
                 <br>
                 <strong>Unidade 2: </strong>Atuação da fisioterapia neurofuncional na ELA
@@ -49,34 +69,51 @@
     </nav>
     <nav class="subheader navbar navbar-expand">
         <div class="container">
-            <span class="navbar-nav fw-bold text-center text-uppercase justify-content-center w-100">
+            <span class="navbar-nav fw-bold text-center text-white text-uppercase justify-content-center w-100">
                 Atividade Avaliativa - Questão 3
             </span>
         </div>
     </nav>
     <div class="container my-3">
-        <div class="d-flex align-items-center">
-            <input id="1" type="checkbox" value="">
-            <label for="1" class="ms-3">FORÇA E RESISTÊNCIA MUSCULAR RESIDUAL</label>
+        <div class="text-white">
+            <p>
+                Durante o módulo, foi abordado que o planejamento terapêutico da reabilitação de pessoas com ELA deve
+                ser
+                diferenciado. Com base nisso, o que deve ser considerado ao elaborar a estratégia terapêutica destes
+                pacientes?
+            </p>
+            <p>
+                Enumere de 1 a 5, nos tópicos a seguir, os seguintes fatores, considerando número 1 como o fator mais
+                importante.
+            </p>
         </div>
-        <div class="d-flex my-3 align-items-center">
-            <input id="2" type="checkbox" value="">
-            <label for="2" class="ms-3">ATIVIDADES DE ROTINA PLANEJADAS PARA O DIA</label>
-        </div>
-        <div class="d-flex align-items-center">
-            <input id="3" type="checkbox" value="">
-            <label for="3" class="ms-3">VELOCIDADE DE PROGRESSÃO DA ELA</label>
-        </div>
-        <div class="d-flex my-3 align-items-center">
-            <input id="3" type="checkbox" value="">
-            <label for="3" class="ms-3">COMPLICAÇÕES EXISTENTES</label>
-        </div>
-        <div class="d-flex align-items-center">
-            <input id="3" type="checkbox" value="">
-            <label for="3" class="ms-3">SONO</label>
-        </div>
+        <form onsubmit="return false">
+            <div class="d-flex align-items-center">
+                <input class="text-field" id="1" type="" value="">
+                <label for="1" class="ms-3">FORÇA E RESISTÊNCIA MUSCULAR RESIDUAL</label>
+            </div>
+            <div class="d-flex my-3 align-items-center">
+                <input class="text-field" id="1" type="" value="">
+                <label for="2" class="ms-3">ATIVIDADES DE ROTINA PLANEJADAS PARA O DIA</label>
+            </div>
+            <div class="d-flex align-items-center">
+                <input class="text-field" id="1" type="" value="">
+                <label for="3" class="ms-3">VELOCIDADE DE PROGRESSÃO DA ELA</label>
+            </div>
+            <div class="d-flex my-3 align-items-center">
+                <input class="text-field" id="1" type="" value="">
+                <label for="3" class="ms-3">COMPLICAÇÕES EXISTENTES</label>
+            </div>
+            <div class="d-flex align-items-center">
+                <input class="text-field" id="1" type="" value="">
+                <label for="3" class="ms-3">SONO</label>
+            </div>
+            <a href="" class="btn text-white btn-enviar w-50 fw-bold my-3 py-3">
+                Enviar
+            </a>
+        </form>
     </div>
-    <div class="d-flex justify-content-center mt-5 mb-3">
+    <div class="footer d-flex justify-content-center mt-5 py-3 position-fixed w-100 fixed-bottom">
         <img src="logos.svg" alt="" class="img-fluid">
     </div>
 </body>

@@ -34,3 +34,17 @@ function isOverlapping(button, slot){
         slot.attr('filled', 'true');
     }
 }
+
+
+const respostas = ['4', '3', '1', '2', '5']
+
+console.log($('form'))
+$('form').submit(function () {
+    $('input').each(function (i, v) {
+        var val = $(v).val();
+        var res = respostas[i];
+        if (val == res) {
+            console.log(val)
+        }
+    })
+})

@@ -45,6 +45,11 @@ span, .btn{
     z-index: 10;
 }
 
+.btn-submit{
+    background-color: #265B88;
+    color: white;
+}
+
 .slot{
     width: 100%;
     height: 97px;

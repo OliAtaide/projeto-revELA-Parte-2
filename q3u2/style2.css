@@ -13,7 +13,7 @@
         background-color: #1d1d1bff;
     }
 
-    form {
+    form, li {
         color: #ffdd00ff;
     }
 
@@ -23,7 +23,7 @@
         border-radius: 5px;
     }
 
-    label {
+    label, li {
         font-size: 24px;
     }
 

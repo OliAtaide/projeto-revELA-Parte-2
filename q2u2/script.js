@@ -3,19 +3,16 @@
 var valor;
 
 $('.field').on('click', 'i', function () {
-    console.log($(this));
-
     var target = $(this).data('target');
     $('#' + target).removeClass('hidden');
     $('[data-button=' + target + ']').remove();
-
-    console.log($('#' + target));
 })
 
 $('button').focus(function () {
-    valor = $(this).attr('id');
-    $(this).addClass('ativo');
-
+    if ($(this).data('movable')) {
+        valor = $(this).attr('id');
+        $(this).addClass('ativo');
+    }
 })
 
 $('.field').click(function () {

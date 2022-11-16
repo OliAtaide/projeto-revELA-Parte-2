@@ -54,46 +54,64 @@
                 <h5>Selecione e arraste sobre a linha desejada.</h5>
                 <ul class="my-3">
                     <li>
-                        <button class="btn">FORÇA E RESISTÊNCIA MUSCULAR RESIDUAL</button>
+                        <button value="4" class="btn btn-option">FORÇA E RESISTÊNCIA MUSCULAR RESIDUAL</button>
                     </li>
                     <li>
-                        <button class="btn">ATIVIDADES DE ROTINA PLANEJADAS PARA O DIA</button>
+                        <button value="3" class="btn btn-option">ATIVIDADES DE ROTINA PLANEJADAS PARA O DIA</button>
                     </li>
                     <li>
-                        <button class="btn">VELOCIDADE DE PROGRESSÃO DA ELA</button>
+                        <button value="1" class="btn btn-option">VELOCIDADE DE PROGRESSÃO DA ELA</button>
                     </li>
                     <li>
-                        <button class="btn">COMPLICAÇÕES EXISTENTES</button>
+                        <button value="2" class="btn btn-option">COMPLICAÇÕES EXISTENTES</button>
                     </li>
                     <li>
-                        <button class="btn">SONO</button>
+                        <button value="5" class="btn btn-option">SONO</button>
                     </li>
                 </ul>
             </div>
             <div class="col">
                 <div class="lampada">
                     <img src="lampada.svg" alt="">
-                    <div class="slot slot-1" filled="false">
+                    <div class="slot slot-1" filled="false" value="">
                         <!-- <span>VELOCIDADE DE PROGRESSÃO DA ELA</span> -->
                     </div>
-                    <div class="slot slot-2" filled="false">
+                    <div class="slot slot-2" filled="false" value="">
                         <!-- <span>COMPLICAÇÕES EXISTENTES</span> -->
                     </div>
-                    <div class="slot slot-3" filled="false">
+                    <div class="slot slot-3" filled="false" value="">
                         <!-- <span>ATIVIDADES DE ROTINA PLANEJADAS PARA O DIA</span> -->
                     </div>
-                    <div class="slot slot-4" filled="false">
+                    <div class="slot slot-4" filled="false" value="">
                         <!-- <span>FORÇA E RESISTÊNCIA MUSCULAR RESIDUAL</span> -->
                     </div>
-                    <div class="slot slot-5" filled="false">
+                    <div class="slot slot-5" filled="false" value="">
                         <!-- <span>SONO</span> -->
                     </div>
                 </div>
             </div>
         </div>
-        <a href="feedback.html" class="btn btn-submit">
+        <button href="feedback.html" class="btn btn-submit">
             Enviar
-        </a>
+        </button>
+    </div>
+    <div class="modal fade" id="parabensModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Parabéns</h1>
+                    <p>
+                        Você acertou todas as alternativas.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Ok</button>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="d-flex justify-content-center mt-5 mb-3">
         <img src="logos.svg" alt="" class="img-fluid">

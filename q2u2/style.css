@@ -115,12 +115,20 @@
     background-color: #009640ff;
 }
 
-.btn{
+.row .btn{
     text-align: start;
 }
 
-.btn:focus{
+th{
+    text-align: center;
+}
+
+.btn:focus, .btn-acessivel, .btn-enviar, th{
     color: white;
+}
+
+table{
+    table-layout: fixed;
 }
 
 label{
@@ -136,12 +144,12 @@ label{
     cursor: pointer;
 }
 
-.header {
-    background-color: #265B88;
+.header, .btn-acessivel, .btn-enviar, th {
+    background-color: #265B88 !important;
 }
 
-.subheader {
-    background-color: #AECBDC;
+.subheader, td {
+    background-color: #AECBDC !important;
 }
 
 i{
@@ -151,3 +159,4 @@ i{
 .hidden{
     visibility: hidden;
 }
+

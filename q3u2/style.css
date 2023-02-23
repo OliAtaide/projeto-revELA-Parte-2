@@ -74,3 +74,8 @@ span, .btn{
     padding-left: 120px;
     padding-right: 120px;
 }
+
+.btn-voltar{
+    gap: 10px;
+    display: flex;
+}

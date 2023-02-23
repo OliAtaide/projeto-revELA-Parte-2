@@ -30,12 +30,12 @@ li{
     margin-bottom: 1em;
 }
 
-span, .btn{
-    font-weight: bold;
-}
-
 .btn{
     z-index: 10;
+}
+
+.btn-submit:hover, .btn-submit:Focus{
+    background-color: black;
 }
 
 .slot{
@@ -67,4 +67,9 @@ textarea{
     resize: none;
     border: 1px solid #265B88 !important;
     height: 540px;
+}
+
+.btn-voltar {
+    gap: 10px;
+    display: flex;
 }

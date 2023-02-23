@@ -1,162 +1,56 @@
-.color1{
-    color: #acbf00ff;
+.check-label {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    color: white;
+    border: 2px solid #006e84ff;
+    border-radius: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    outline: none;
+    cursor: pointer;
 }
 
-.color1:hover{
-    border: 1px solid #acbf00ff;
-    color: #acbf00ff;
+.check-label i {
+    display: none;
 }
 
-.bg1, .color1:focus{
-    background-color: #acbf00ff;
+input:checked~.check-label i {
+    display: block;
 }
 
-.color2{
-    color: #00afbfff;
-}
-
-.color2:hover{
-    border: 1px solid #00afbfff;
-    color: #00afbfff;
-}
-
-.bg2, .color2:focus{
-    background-color: #00afbfff;
-}
-
-.color3{
-    color: #ebbc00ff;
-}
-
-.color3:hover{
-    border: 1px solid #ebbc00ff;
-    color: #ebbc00ff;
-}
-
-.bg3, .color3:focus{
-    background-color: #ebbc00ff;
-}
-
-.color4{
-    color: #c2240cff;
-}
-
-.color4:hover{
-    border: 1px solid #c2240cff;
-    color: #c2240cff;
-}
-
-.bg4, .color4:focus{
-    background-color: #c2240cff;
-}
-
-.color5{
-    color: #7b4173ff;
-}
-
-.color5:hover{
-    border: 1px solid #7b4173ff;
-    color: #7b4173ff;
-}
-
-.bg5, .color5:focus{
-    background-color: #7b4173ff;
-}
-
-.color6{
-    color: #eb5d0bff;
-}
-
-.color6:hover{
-    border: 1px solid #eb5d0bff;
-    color: #eb5d0bff;
-}
-
-.bg6, .color6:focus{
-    background-color: #eb5d0bff;
-}
-
-.color7{
-    color: #ee8900ff;
-}
-
-.color7:hover{
-    border: 1px solid #ee8900ff;
-    color: #ee8900ff;
-}
-
-.bg7, .color7:focus{
-    background-color: #ee8900ff;
-}
-
-.color8{
-    color: #d2007fff;
-}
-
-.color8:hover{
-    border: 1px solid #d2007fff;
-    color: #d2007fff;
-}
-
-.bg8, .color8:focus{
-    background-color: #d2007fff;
-}
-
-.color9{
-    color: #009640ff;
-}
-
-.color9:hover{
-    border: 1px solid #009640ff;
-    color: #009640ff;
-}
-
-.bg9, .color9:focus{
-    background-color: #009640ff;
-}
-
-.row .btn{
-    text-align: start;
+input:checked~.check-label, .btn, .btn:hover {
+    background-color: #006e84ff;
 }
 
 th{
     text-align: center;
 }
 
-.btn:focus, .btn-acessivel, .btn-enviar, th{
+.header {
+    background-color: #265B88;
     color: white;
 }
 
-table{
-    table-layout: fixed;
+.subheader {
+    background-color: #AECBDC;
 }
 
-label{
-    color: #006e84ff;
+.btn-voltar {
+    color: white;
 }
 
-.field{
-    border: 1px solid #006e84ff;
-    padding: 0.5em;
-    height: 150px;
-    border-radius: 20px;
+.check-field {
+    margin-top: 1em;
     margin-bottom: 1em;
-    cursor: pointer;
 }
 
-.header, .btn-acessivel, .btn-enviar, th {
-    background-color: #265B88 !important;
+.check-field span, p, table, .btn {
+    font-size: 24px;
 }
 
-.subheader, td {
-    background-color: #AECBDC !important;
+.check-field span{
+    margin-left: 1em;
 }
-
-i{
-    cursor: pointer;
-}
-
-.hidden{
-    visibility: hidden;
-}
-
